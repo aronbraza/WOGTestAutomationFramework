@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="WOG.CMS_EventsAndTrainingsTest">
+      <class name="WOG.CMS_LoginTest">
         <methods>
-          <include name="initialize"/>
-          <include name="Edit_Event"/>
           <include name="tearDown"/>
+          <include name="initialize"/>
+          <include name="loginToCMS"/>
         </methods>
-      </class> <!-- WOG.CMS_EventsAndTrainingsTest -->
+      </class> <!-- WOG.CMS_LoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

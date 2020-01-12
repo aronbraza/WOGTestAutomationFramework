@@ -14,6 +14,9 @@ public class CMS_LoginPage {
 		PageFactory.initElements(driver, this);
 	}
 	
+	@FindBy(className="login_errmsg")
+	private WebElement Error_Message_Text;
+	
 	@FindBy(name="username")
 	private WebElement Username_Textbox;
 	
@@ -22,6 +25,11 @@ public class CMS_LoginPage {
 	
 	@FindBy(name="login")
 	private WebElement Login_Button;
+	
+	public String getError_Message_Text()
+	{
+		return Error_Message_Text.getText();
+	}
 	
 
 	public void setUsername_Textbox(String Username)

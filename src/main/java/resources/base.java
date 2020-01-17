@@ -39,7 +39,7 @@ public class base {
 					options.addArguments("headless");
 				}
 				driver = new ChromeDriver(options);
-				driver.manage().window().maximize();
+				
 				
 			}
 			
@@ -47,7 +47,6 @@ public class base {
 			{
 				System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir")+"\\driver\\geckodriver.exe");
 				driver = new FirefoxDriver();
-				driver.manage().window().maximize();
 				
 			}
 			
@@ -55,7 +54,7 @@ public class base {
 			{
 				
 			}
-			
+			driver.manage().window().maximize();
 			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 			return driver;
 	}

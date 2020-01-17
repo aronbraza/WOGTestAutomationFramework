@@ -14,7 +14,7 @@ import org.testng.annotations.Test;
 
 import CMS_PageObjects.CMS_LoginPage;
 import TestData.ExcelConfig;
-import TestData.LoginTestData;
+import TestData.DataProviderTestData;
 import resources.base;
 
 public class CMS_LoginTest extends base {
@@ -33,7 +33,7 @@ public class CMS_LoginTest extends base {
 	}
 	
 	
-	@Test(dataProvider="L_00", dataProviderClass=LoginTestData.class)
+	@Test(dataProvider="L_00", dataProviderClass=DataProviderTestData.class)
 	public void loginToCMS(String Username, String Password, String Results) throws InterruptedException
 	{
 		CMS_LoginPage cmsLogin_Page = new CMS_LoginPage(driver);

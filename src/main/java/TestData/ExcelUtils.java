@@ -77,6 +77,7 @@ public class ExcelUtils {
 			int ci=0,cj=0;
 
 			int totalRows = 1;
+			
 
 			
 			int Cols = ExcelUtils.getColumnCount();
@@ -147,6 +148,7 @@ public class ExcelUtils {
 		
 
 	}
+	
 
 	public static int getRowContains(String sTestCaseName, int colNum) throws Exception{
 

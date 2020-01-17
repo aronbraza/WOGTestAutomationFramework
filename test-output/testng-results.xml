@@ -1,84 +1,3323 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results ignored="0" total="32" passed="32" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="17425" started-at="2020-01-12T15:09:42Z" finished-at="2020-01-12T15:09:59Z">
+  <suite started-at="2020-01-17T19:06:06 SGT" name="Default suite" finished-at="2020-01-17T19:21:10 SGT" duration-ms="904165">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="17425" started-at="2020-01-12T15:09:42Z" finished-at="2020-01-12T15:09:59Z">
-      <class name="WOG.CMS_LoginTest">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:WOG.CMS_LoginTest@4567f35d]" name="initialize" is-config="true" duration-ms="5306" started-at="2020-01-12T15:09:42Z" finished-at="2020-01-12T15:09:47Z">
+    <test started-at="2020-01-17T19:06:06 SGT" name="Default test" finished-at="2020-01-17T19:21:10 SGT" duration-ms="904165">
+      <class name="WOG.CMS_EventsAndTrainingsTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-17T19:06:06 SGT" name="initialize" finished-at="2020-01-17T19:06:17 SGT" duration-ms="11413" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="loginToCMS(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:WOG.CMS_LoginTest@4567f35d]" name="loginToCMS" duration-ms="3654" started-at="2020-01-12T15:09:49Z" data-provider="L_00" finished-at="2020-01-12T15:09:52Z">
+        <test-method signature="login(java.lang.String, java.lang.String)[pri:1, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-17T19:06:19 SGT" name="login" data-provider="CMSLoginTestData1" finished-at="2020-01-17T19:06:20 SGT" duration-ms="1285" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[789456123]]>
+                <![CDATA[adminadmin]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[123456]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Please re-enter your username and/or password.]]>
+                <![CDATA[Admin123]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginToCMS -->
-        <test-method status="PASS" signature="loginToCMS(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:WOG.CMS_LoginTest@4567f35d]" name="loginToCMS" duration-ms="3528" started-at="2020-01-12T15:09:52Z" data-provider="L_00" finished-at="2020-01-12T15:09:56Z">
+        </test-method> <!-- login -->
+        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-17T19:06:20 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-17T19:06:32 SGT" duration-ms="11461" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[aronbraza]]>
+                <![CDATA[Public]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Wog12345!]]>
+                <![CDATA[PEMC Grand Event]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[Please re-enter your username and/or password.]]>
+                <![CDATA[Boni Mandaluyong near MRT Boni Station]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. ]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Sample Event Form]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[01/15/2020 08:00]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[01/20/2020 17:00]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[01/10/2019 07:00]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[01/14/2020 23:59]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[C:\\Users\\OJT - Project Sec1\\eclipse-workspace\\SeleniumFrameworkFujiSankeiWebsite\\Sample Test Files\\Portable Document File Sample.pdf]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Custom]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[01/21/2020 10:00 ]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[02/21/2020 10:00 ]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[C:\\Users\\OJT - Project Sec1\\eclipse-workspace\\SeleniumFrameworkFujiSankeiWebsite\\Sample Test Files\\1.jpg]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[PEMC Event Survey Form]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Required]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[Please fill all required(*) fields.]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginToCMS -->
-        <test-method status="PASS" signature="loginToCMS(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:WOG.CMS_LoginTest@4567f35d]" name="loginToCMS" duration-ms="3546" started-at="2020-01-12T15:09:56Z" data-provider="L_00" finished-at="2020-01-12T15:09:59Z">
+        </test-method> <!-- CreateEvent -->
+        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-17T19:06:32 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-17T19:06:53 SGT" duration-ms="21520" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[aronpaul]]>
+                <![CDATA[Private]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Wog098765]]>
+                <![CDATA[PEMC Grand Private Event]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[Please re-enter your username and/or password.]]>
+                <![CDATA[Boni Mandaluyong near MRT Boni Station]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox nymphs grab quick-jived waltz. Brick quiz whangs jumpy veldt fox. Bright vixens jump; dozy fowl quack. Quick wafting zephyrs vex bold Jim. Quick zephyrs blow, vexing daft Jim. Sex-charged fop blew my junk TV quiz. How quickly daft jumping zebras vex. Two driven jocks help fax my big quiz. Quick, Baz, get my woven flax jodhpurs! "Now fax quiz Jack!" my brave ghost pled. Five quacking zephyrs jolt my wax bed. Flummoxed by job, kvetching W. zaps Iraq. Cozy sphinx waves quart jug of bad milk. A very bad quack might jinx zippy fowls. Few quips galvanized the mock jury box. Quick brown dogs jump over the lazy fox. The jay, pig, fox, zebra, and my wolves quack! Blowzy red vixens fight og. Watch "Jeo]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Sample Event Form]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[01/15/2020 08:00]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[01/20/2020 17:00]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[01/10/2019 07:00]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[01/14/2020 23:59]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[C:\\Users\\OJT - Project Sec1\\eclipse-workspace\\SeleniumFrameworkFujiSankeiWebsite\\Sample Test Files\\Portable Document File Sample.pdf]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Lifetime]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[01/21/2020 10:00 ]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[01/21/2020 10:00 ]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[C:\\Users\\OJT - Project Sec1\\eclipse-workspace\\SeleniumFrameworkFujiSankeiWebsite\\Sample Test Files\\1.jpg]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[PEMC Event Survey Form]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Required]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[Please fill all required(*) fields.]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginToCMS -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:WOG.CMS_LoginTest@4567f35d]" name="tearDown" is-config="true" duration-ms="134" started-at="2020-01-12T15:09:59Z" finished-at="2020-01-12T15:09:59Z">
+        </test-method> <!-- CreateEvent -->
+        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-17T19:06:53 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-17T19:07:28 SGT" duration-ms="34362" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Private]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PEMC Grand Private Event]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Boni Mandaluyong near MRT Boni Station]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox nymphs grab quick-jived waltz. Brick quiz whangs jumpy veldt fox. Bright vixens jump; dozy fowl quack. Quick wafting zephyrs vex bold Jim. Quick zephyrs blow, vexing daft Jim. Sex-charged fop blew my junk TV quiz. How quickly daft jumping zebras vex. Two driven jocks help fax my big quiz. Quick, Baz, get my woven flax jodhpurs! "Now fax quiz Jack!" my brave ghost pled. Five quacking zephyrs jolt my wax bed. Flummoxed by job, kvetching W. zaps Iraq. Cozy sphinx waves quart jug of bad milk. A very bad quack might jinx zippy fowls. Few quips galvanized the mock jury box. Quick brown dogs jump over the lazy fox. The jay, pig, fox, zebra, and my wolves quack! Blowzy red vixens fight og. Watch "Jeo]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Sample Event Form]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[01/15/2020 08:00]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[01/20/2020 17:00]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[01/10/2019 07:00]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[01/14/2020 23:59]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[C:\\Users\\OJT - Project Sec1\\eclipse-workspace\\SeleniumFrameworkFujiSankeiWebsite\\Sample Test Files\\Portable Document File Sample.pdf]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Lifetime]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[01/21/2020 10:00 ]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[01/21/2020 10:00 ]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[C:\\Users\\OJT - Project Sec1\\eclipse-workspace\\SeleniumFrameworkFujiSankeiWebsite\\Sample Test Files\\1.jpg]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[PEMC Event Survey Form]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Required]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[Please fill all required(*) fields.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateEvent -->
+        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-17T19:07:28 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-17T19:08:01 SGT" duration-ms="33282" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Private]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PEMC Grand Private Event]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Boni Mandaluyong near MRT Boni Station]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox nymphs grab quick-jived waltz. Brick quiz whangs jumpy veldt fox. Bright vixens jump; dozy fowl quack. Quick wafting zephyrs vex bold Jim. Quick zephyrs blow, vexing daft Jim. Sex-charged fop blew my junk TV quiz. How quickly daft jumping zebras vex. Two driven jocks help fax my big quiz. Quick, Baz, get my woven flax jodhpurs! "Now fax quiz Jack!" my brave ghost pled. Five quacking zephyrs jolt my wax bed. Flummoxed by job, kvetching W. zaps Iraq. Cozy sphinx waves quart jug of bad milk. A very bad quack might jinx zippy fowls. Few quips galvanized the mock jury box. Quick brown dogs jump over the lazy fox. The jay, pig, fox, zebra, and my wolves quack! Blowzy red vixens fight og. Watch "Jeo]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Sample Event Form]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[01/15/2020 08:00]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[01/20/2020 17:00]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[01/10/2019 07:00]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[01/14/2020 23:59]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[C:\\Users\\OJT - Project Sec1\\eclipse-workspace\\SeleniumFrameworkFujiSankeiWebsite\\Sample Test Files\\Portable Document File Sample.pdf]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Lifetime]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[01/21/2020 10:00 ]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[01/21/2020 10:00 ]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[C:\\Users\\OJT - Project Sec1\\eclipse-workspace\\SeleniumFrameworkFujiSankeiWebsite\\Sample Test Files\\1.jpg]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[PEMC Event Survey Form]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Required]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[Please fill all required(*) fields.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateEvent -->
+        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-17T19:08:01 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-17T19:08:36 SGT" duration-ms="35316" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Private]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PEMC Grand Private Event]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Boni Mandaluyong near MRT Boni Station]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox nymphs grab quick-jived waltz. Brick quiz whangs jumpy veldt fox. Bright vixens jump; dozy fowl quack. Quick wafting zephyrs vex bold Jim. Quick zephyrs blow, vexing daft Jim. Sex-charged fop blew my junk TV quiz. How quickly daft jumping zebras vex. Two driven jocks help fax my big quiz. Quick, Baz, get my woven flax jodhpurs! "Now fax quiz Jack!" my brave ghost pled. Five quacking zephyrs jolt my wax bed. Flummoxed by job, kvetching W. zaps Iraq. Cozy sphinx waves quart jug of bad milk. A very bad quack might jinx zippy fowls. Few quips galvanized the mock jury box. Quick brown dogs jump over the lazy fox. The jay, pig, fox, zebra, and my wolves quack! Blowzy red vixens fight og. Watch "Jeo]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Sample Event Form]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[01/15/2020 08:00]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[01/20/2020 17:00]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[01/10/2019 07:00]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[01/14/2020 23:59]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[C:\\Users\\OJT - Project Sec1\\eclipse-workspace\\SeleniumFrameworkFujiSankeiWebsite\\Sample Test Files\\Portable Document File Sample.pdf]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Lifetime]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[01/21/2020 10:00 ]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[01/21/2020 10:00 ]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[C:\\Users\\OJT - Project Sec1\\eclipse-workspace\\SeleniumFrameworkFujiSankeiWebsite\\Sample Test Files\\1.jpg]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[PEMC Event Survey Form]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Required]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[Please fill all required(*) fields.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateEvent -->
+        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-17T19:08:36 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-17T19:09:11 SGT" duration-ms="35034" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Public]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PEMC Grand Event]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Boni Mandaluyong near MRT Boni Station]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox nymphs grab quick-jived waltz. Brick quiz whangs jumpy veldt fox. Bright vixens jump; dozy fowl quack. Quick wafting zephyrs vex bold Jim. Quick zephyrs blow, vexing daft Jim. Sex-charged fop blew my junk TV quiz. How quickly daft jumping zebras vex. Two driven jocks help fax my big quiz. Quick, Baz, get my woven flax jodhpurs! "Now fax quiz Jack!" my brave ghost pled. Five quacking zephyrs jolt my wax bed. Flummoxed by job, kvetching W. zaps Iraq. Cozy sphinx waves quart jug of bad milk. A very bad quack might jinx zippy fowls. Few quips galvanized the mock jury box. Quick brown dogs jump over the lazy fox. The jay, pig, fox, zebra, and my wolves quack! Blowzy red vixens fight og. Watch "Jeo]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Sample Event Form]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[01/15/2020 08:00]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[01/20/2020 17:00]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[01/10/2019 07:00]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[01/14/2020 23:59]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[C:\\Users\\OJT - Project Sec1\\eclipse-workspace\\SeleniumFrameworkFujiSankeiWebsite\\Sample Test Files\\Portable Document File Sample.pdf]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Custom]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[01/21/2020 10:00 ]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[02/21/2020 10:00 ]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[C:\\Users\\OJT - Project Sec1\\eclipse-workspace\\SeleniumFrameworkFujiSankeiWebsite\\Sample Test Files\\1.jpg]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[PEMC Event Survey Form]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Required]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[Please fill all required(*) fields.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateEvent -->
+        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-17T19:09:11 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-17T19:09:44 SGT" duration-ms="32830" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Private]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PEMC Grand Private Event]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Boni Mandaluyong near MRT Boni Station]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox nymphs grab quick-jived waltz. Brick quiz whangs jumpy veldt fox. Bright vixens jump; dozy fowl quack. Quick wafting zephyrs vex bold Jim. Quick zephyrs blow, vexing daft Jim. Sex-charged fop blew my junk TV quiz. How quickly daft jumping zebras vex. Two driven jocks help fax my big quiz. Quick, Baz, get my woven flax jodhpurs! "Now fax quiz Jack!" my brave ghost pled. Five quacking zephyrs jolt my wax bed. Flummoxed by job, kvetching W. zaps Iraq. Cozy sphinx waves quart jug of bad milk. A very bad quack might jinx zippy fowls. Few quips galvanized the mock jury box. Quick brown dogs jump over the lazy fox. The jay, pig, fox, zebra, and my wolves quack! Blowzy red vixens fight og. Watch "Jeo]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Sample Event Form]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[01/15/2020 08:00]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[01/20/2020 17:00]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[01/10/2019 07:00]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[01/14/2020 23:59]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[C:\\Users\\OJT - Project Sec1\\eclipse-workspace\\SeleniumFrameworkFujiSankeiWebsite\\Sample Test Files\\Portable Document File Sample.pdf]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Lifetime]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[01/21/2020 10:00 ]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[01/21/2020 10:00 ]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[C:\\Users\\OJT - Project Sec1\\eclipse-workspace\\SeleniumFrameworkFujiSankeiWebsite\\Sample Test Files\\1.jpg]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[PEMC Event Survey Form]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Required]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[Please fill all required(*) fields.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateEvent -->
+        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-17T19:09:44 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-17T19:10:16 SGT" duration-ms="31999" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Private]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PEMC Grand Private Event]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Boni Mandaluyong near MRT Boni Station]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox nymphs grab quick-jived waltz. Brick quiz whangs jumpy veldt fox. Bright vixens jump; dozy fowl quack. Quick wafting zephyrs vex bold Jim. Quick zephyrs blow, vexing daft Jim. Sex-charged fop blew my junk TV quiz. How quickly daft jumping zebras vex. Two driven jocks help fax my big quiz. Quick, Baz, get my woven flax jodhpurs! "Now fax quiz Jack!" my brave ghost pled. Five quacking zephyrs jolt my wax bed. Flummoxed by job, kvetching W. zaps Iraq. Cozy sphinx waves quart jug of bad milk. A very bad quack might jinx zippy fowls. Few quips galvanized the mock jury box. Quick brown dogs jump over the lazy fox. The jay, pig, fox, zebra, and my wolves quack! Blowzy red vixens fight og. Watch "Jeo]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Sample Event Form]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[01/15/2020 08:00]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[01/20/2020 17:00]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[01/10/2019 07:00]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[01/14/2020 23:59]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[C:\\Users\\OJT - Project Sec1\\eclipse-workspace\\SeleniumFrameworkFujiSankeiWebsite\\Sample Test Files\\Portable Document File Sample.pdf]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Lifetime]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[01/21/2020 10:00 ]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[01/21/2020 10:00 ]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[C:\\Users\\OJT - Project Sec1\\eclipse-workspace\\SeleniumFrameworkFujiSankeiWebsite\\Sample Test Files\\1.jpg]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[PEMC Event Survey Form]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Required]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[Please fill all required(*) fields.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateEvent -->
+        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-17T19:10:16 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-17T19:10:52 SGT" duration-ms="36042" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Public]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PEMC Grand Event]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Boni Mandaluyong near MRT Boni Station]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox nymphs grab quick-jived waltz. Brick quiz whangs jumpy veldt fox. Bright vixens jump; dozy fowl quack. Quick wafting zephyrs vex bold Jim. Quick zephyrs blow, vexing daft Jim. Sex-charged fop blew my junk TV quiz. How quickly daft jumping zebras vex. Two driven jocks help fax my big quiz. Quick, Baz, get my woven flax jodhpurs! "Now fax quiz Jack!" my brave ghost pled. Five quacking zephyrs jolt my wax bed. Flummoxed by job, kvetching W. zaps Iraq. Cozy sphinx waves quart jug of bad milk. A very bad quack might jinx zippy fowls. Few quips galvanized the mock jury box. Quick brown dogs jump over the lazy fox. The jay, pig, fox, zebra, and my wolves quack! Blowzy red vixens fight og. Watch "Jeo]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Sample Event Form]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[01/15/2020 08:00]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[01/20/2020 17:00]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[01/10/2019 07:00]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[01/14/2020 23:59]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[C:\\Users\\OJT - Project Sec1\\eclipse-workspace\\SeleniumFrameworkFujiSankeiWebsite\\Sample Test Files\\Portable Document File Sample.pdf]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Custom]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[01/21/2020 10:00 ]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[02/21/2020 10:00 ]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[C:\\Users\\OJT - Project Sec1\\eclipse-workspace\\SeleniumFrameworkFujiSankeiWebsite\\Sample Test Files\\1.jpg]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[PEMC Event Survey Form]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Required]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[Please fill all required(*) fields.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateEvent -->
+        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-17T19:10:52 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-17T19:11:16 SGT" duration-ms="24382" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Public]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PEMC Grand Event]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Boni Mandaluyong near MRT Boni Station]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox nymphs grab quick-jived waltz. Brick quiz whangs jumpy veldt fox. Bright vixens jump; dozy fowl quack. Quick wafting zephyrs vex bold Jim. Quick zephyrs blow, vexing daft Jim. Sex-charged fop blew my junk TV quiz. How quickly daft jumping zebras vex. Two driven jocks help fax my big quiz. Quick, Baz, get my woven flax jodhpurs! "Now fax quiz Jack!" my brave ghost pled. Five quacking zephyrs jolt my wax bed. Flummoxed by job, kvetching W. zaps Iraq. Cozy sphinx waves quart jug of bad milk. A very bad quack might jinx zippy fowls. Few quips galvanized the mock jury box. Quick brown dogs jump over the lazy fox. The jay, pig, fox, zebra, and my wolves quack! Blowzy red vixens fight og. Watch "Jeo]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Sample Event Form]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[01/15/2020 08:00]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[01/20/2020 17:00]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[01/10/2019 07:00]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[01/14/2020 23:59]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[C:\\Users\\OJT - Project Sec1\\eclipse-workspace\\SeleniumFrameworkFujiSankeiWebsite\\Sample Test Files\\Portable Document File Sample.pdf]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Custom]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[01/21/2020 10:00 ]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[02/21/2020 10:00 ]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[C:\\Users\\OJT - Project Sec1\\eclipse-workspace\\SeleniumFrameworkFujiSankeiWebsite\\Sample Test Files\\1.jpg]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[PEMC Event Survey Form]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Required]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[Please fill all required(*) fields.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateEvent -->
+        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-17T19:11:16 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-17T19:11:28 SGT" duration-ms="12007" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Private]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PEMC Grand Private Event]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Boni Mandaluyong near MRT Boni Station]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox nymphs grab quick-jived waltz. Brick quiz whangs jumpy veldt fox. Bright vixens jump; dozy fowl quack. Quick wafting zephyrs vex bold Jim. Quick zephyrs blow, vexing daft Jim. Sex-charged fop blew my junk TV quiz. How quickly daft jumping zebras vex. Two driven jocks help fax my big quiz. Quick, Baz, get my woven flax jodhpurs! "Now fax quiz Jack!" my brave ghost pled. Five quacking zephyrs jolt my wax bed. Flummoxed by job, kvetching W. zaps Iraq. Cozy sphinx waves quart jug of bad milk. A very bad quack might jinx zippy fowls. Few quips galvanized the mock jury box. Quick brown dogs jump over the lazy fox. The jay, pig, fox, zebra, and my wolves quack! Blowzy red vixens fight og. Watch "Jeo]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Sample Event Form]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[01/15/2020 08:00]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[01/20/2020 17:00]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[01/10/2019 07:00]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[01/14/2020 23:59]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[C:\\Users\\OJT - Project Sec1\\eclipse-workspace\\SeleniumFrameworkFujiSankeiWebsite\\Sample Test Files\\Portable Document File Sample.pdf]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Lifetime]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[01/21/2020 10:00 ]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[01/21/2020 10:00 ]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[C:\\Users\\OJT - Project Sec1\\eclipse-workspace\\SeleniumFrameworkFujiSankeiWebsite\\Sample Test Files\\1.jpg]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[PEMC Event Survey Form]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Required]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[Please fill all required(*) fields.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateEvent -->
+        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-17T19:11:28 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-17T19:11:40 SGT" duration-ms="11799" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Private]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PEMC Grand Private Event]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Boni Mandaluyong near MRT Boni Station]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox nymphs grab quick-jived waltz. Brick quiz whangs jumpy veldt fox. Bright vixens jump; dozy fowl quack. Quick wafting zephyrs vex bold Jim. Quick zephyrs blow, vexing daft Jim. Sex-charged fop blew my junk TV quiz. How quickly daft jumping zebras vex. Two driven jocks help fax my big quiz. Quick, Baz, get my woven flax jodhpurs! "Now fax quiz Jack!" my brave ghost pled. Five quacking zephyrs jolt my wax bed. Flummoxed by job, kvetching W. zaps Iraq. Cozy sphinx waves quart jug of bad milk. A very bad quack might jinx zippy fowls. Few quips galvanized the mock jury box. Quick brown dogs jump over the lazy fox. The jay, pig, fox, zebra, and my wolves quack! Blowzy red vixens fight og. Watch "Jeo]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Sample Event Form]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[01/15/2020 08:00]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[01/20/2020 17:00]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[01/10/2019 07:00]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[01/14/2020 23:59]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[C:\\Users\\OJT - Project Sec1\\eclipse-workspace\\SeleniumFrameworkFujiSankeiWebsite\\Sample Test Files\\Portable Document File Sample.pdf]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Lifetime]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[01/21/2020 10:00 ]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[01/21/2020 10:00 ]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[C:\\Users\\OJT - Project Sec1\\eclipse-workspace\\SeleniumFrameworkFujiSankeiWebsite\\Sample Test Files\\1.jpg]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[PEMC Event Survey Form]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Required]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[Please fill all required(*) fields.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateEvent -->
+        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-17T19:11:40 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-17T19:12:03 SGT" duration-ms="22403" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Private]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PEMC Grand Private Event]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Boni Mandaluyong near MRT Boni Station]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox nymphs grab quick-jived waltz. Brick quiz whangs jumpy veldt fox. Bright vixens jump; dozy fowl quack. Quick wafting zephyrs vex bold Jim. Quick zephyrs blow, vexing daft Jim. Sex-charged fop blew my junk TV quiz. How quickly daft jumping zebras vex. Two driven jocks help fax my big quiz. Quick, Baz, get my woven flax jodhpurs! "Now fax quiz Jack!" my brave ghost pled. Five quacking zephyrs jolt my wax bed. Flummoxed by job, kvetching W. zaps Iraq. Cozy sphinx waves quart jug of bad milk. A very bad quack might jinx zippy fowls. Few quips galvanized the mock jury box. Quick brown dogs jump over the lazy fox. The jay, pig, fox, zebra, and my wolves quack! Blowzy red vixens fight og. Watch "Jeo]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Sample Event Form]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[01/15/2020 08:00]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[01/20/2020 17:00]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[01/10/2019 07:00]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[01/14/2020 23:59]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[C:\\Users\\OJT - Project Sec1\\eclipse-workspace\\SeleniumFrameworkFujiSankeiWebsite\\Sample Test Files\\Portable Document File Sample.pdf]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Lifetime]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[01/21/2020 10:00 ]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[01/21/2020 10:00 ]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[C:\\Users\\OJT - Project Sec1\\eclipse-workspace\\SeleniumFrameworkFujiSankeiWebsite\\Sample Test Files\\1.jpg]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[PEMC Event Survey Form]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Required]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[Please fill all required(*) fields.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateEvent -->
+        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-17T19:12:03 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-17T19:12:34 SGT" duration-ms="31421" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Private]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PEMC Grand Private Event]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Boni Mandaluyong near MRT Boni Station]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox nymphs grab quick-jived waltz. Brick quiz whangs jumpy veldt fox. Bright vixens jump; dozy fowl quack. Quick wafting zephyrs vex bold Jim. Quick zephyrs blow, vexing daft Jim. Sex-charged fop blew my junk TV quiz. How quickly daft jumping zebras vex. Two driven jocks help fax my big quiz. Quick, Baz, get my woven flax jodhpurs! "Now fax quiz Jack!" my brave ghost pled. Five quacking zephyrs jolt my wax bed. Flummoxed by job, kvetching W. zaps Iraq. Cozy sphinx waves quart jug of bad milk. A very bad quack might jinx zippy fowls. Few quips galvanized the mock jury box. Quick brown dogs jump over the lazy fox. The jay, pig, fox, zebra, and my wolves quack! Blowzy red vixens fight og. Watch "Jeo]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Sample Event Form]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[01/15/2020 08:00]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[01/20/2020 17:00]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[01/10/2019 07:00]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[01/14/2020 23:59]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[C:\\Users\\OJT - Project Sec1\\eclipse-workspace\\SeleniumFrameworkFujiSankeiWebsite\\Sample Test Files\\Portable Document File Sample.pdf]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Lifetime]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[01/21/2020 10:00 ]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[01/21/2020 10:00 ]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[C:\\Users\\OJT - Project Sec1\\eclipse-workspace\\SeleniumFrameworkFujiSankeiWebsite\\Sample Test Files\\1.jpg]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[PEMC Event Survey Form]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Required]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[Please fill all required(*) fields.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateEvent -->
+        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-17T19:12:34 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-17T19:13:08 SGT" duration-ms="34195" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Public]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PEMC Grand Event]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Boni Mandaluyong near MRT Boni Station]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox nymphs grab quick-jived waltz. Brick quiz whangs jumpy veldt fox. Bright vixens jump; dozy fowl quack. Quick wafting zephyrs vex bold Jim. Quick zephyrs blow, vexing daft Jim. Sex-charged fop blew my junk TV quiz. How quickly daft jumping zebras vex. Two driven jocks help fax my big quiz. Quick, Baz, get my woven flax jodhpurs! "Now fax quiz Jack!" my brave ghost pled. Five quacking zephyrs jolt my wax bed. Flummoxed by job, kvetching W. zaps Iraq. Cozy sphinx waves quart jug of bad milk. A very bad quack might jinx zippy fowls. Few quips galvanized the mock jury box. Quick brown dogs jump over the lazy fox. The jay, pig, fox, zebra, and my wolves quack! Blowzy red vixens fight og. Watch "Jeo]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Sample Event Form]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[01/15/2020 08:00]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[01/20/2020 17:00]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[01/10/2019 07:00]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[01/14/2020 23:59]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[C:\\Users\\OJT - Project Sec1\\eclipse-workspace\\SeleniumFrameworkFujiSankeiWebsite\\Sample Test Files\\Portable Document File Sample.pdf]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Custom]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[01/21/2020 10:00 ]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[02/21/2020 10:00 ]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[C:\\Users\\OJT - Project Sec1\\eclipse-workspace\\SeleniumFrameworkFujiSankeiWebsite\\Sample Test Files\\1.jpg]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[PEMC Event Survey Form]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Required]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[Please fill all required(*) fields.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateEvent -->
+        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-17T19:13:08 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-17T19:13:40 SGT" duration-ms="32133" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Private]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PEMC Grand Private Event]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Boni Mandaluyong near MRT Boni Station]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox nymphs grab quick-jived waltz. Brick quiz whangs jumpy veldt fox. Bright vixens jump; dozy fowl quack. Quick wafting zephyrs vex bold Jim. Quick zephyrs blow, vexing daft Jim. Sex-charged fop blew my junk TV quiz. How quickly daft jumping zebras vex. Two driven jocks help fax my big quiz. Quick, Baz, get my woven flax jodhpurs! "Now fax quiz Jack!" my brave ghost pled. Five quacking zephyrs jolt my wax bed. Flummoxed by job, kvetching W. zaps Iraq. Cozy sphinx waves quart jug of bad milk. A very bad quack might jinx zippy fowls. Few quips galvanized the mock jury box. Quick brown dogs jump over the lazy fox. The jay, pig, fox, zebra, and my wolves quack! Blowzy red vixens fight og. Watch "Jeo]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Sample Event Form]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[01/15/2020 08:00]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[01/20/2020 17:00]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[01/10/2019 07:00]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[01/14/2020 23:59]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[C:\\Users\\OJT - Project Sec1\\eclipse-workspace\\SeleniumFrameworkFujiSankeiWebsite\\Sample Test Files\\Portable Document File Sample.pdf]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Lifetime]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[01/21/2020 10:00 ]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[01/21/2020 10:00 ]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[C:\\Users\\OJT - Project Sec1\\eclipse-workspace\\SeleniumFrameworkFujiSankeiWebsite\\Sample Test Files\\1.jpg]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[PEMC Event Survey Form]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Required]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[Please fill all required(*) fields.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateEvent -->
+        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-17T19:13:40 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-17T19:14:12 SGT" duration-ms="31742" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Private]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PEMC Grand Private Event]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Boni Mandaluyong near MRT Boni Station]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox nymphs grab quick-jived waltz. Brick quiz whangs jumpy veldt fox. Bright vixens jump; dozy fowl quack. Quick wafting zephyrs vex bold Jim. Quick zephyrs blow, vexing daft Jim. Sex-charged fop blew my junk TV quiz. How quickly daft jumping zebras vex. Two driven jocks help fax my big quiz. Quick, Baz, get my woven flax jodhpurs! "Now fax quiz Jack!" my brave ghost pled. Five quacking zephyrs jolt my wax bed. Flummoxed by job, kvetching W. zaps Iraq. Cozy sphinx waves quart jug of bad milk. A very bad quack might jinx zippy fowls. Few quips galvanized the mock jury box. Quick brown dogs jump over the lazy fox. The jay, pig, fox, zebra, and my wolves quack! Blowzy red vixens fight og. Watch "Jeo]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Sample Event Form]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[01/15/2020 08:00]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[01/20/2020 17:00]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[01/10/2019 07:00]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[01/14/2020 23:59]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[C:\\Users\\OJT - Project Sec1\\eclipse-workspace\\SeleniumFrameworkFujiSankeiWebsite\\Sample Test Files\\Portable Document File Sample.pdf]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Lifetime]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[01/21/2020 10:00 ]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[01/21/2020 10:00 ]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[C:\\Users\\OJT - Project Sec1\\eclipse-workspace\\SeleniumFrameworkFujiSankeiWebsite\\Sample Test Files\\1.jpg]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[PEMC Event Survey Form]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Required]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[Please fill all required(*) fields.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateEvent -->
+        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-17T19:14:12 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-17T19:14:25 SGT" duration-ms="12556" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Public]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PEMC Grand Event]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Boni Mandaluyong near MRT Boni Station]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox nymphs grab quick-jived waltz. Brick quiz whangs jumpy veldt fox. Bright vixens jump; dozy fowl quack. Quick wafting zephyrs vex bold Jim. Quick zephyrs blow, vexing daft Jim. Sex-charged fop blew my junk TV quiz. How quickly daft jumping zebras vex. Two driven jocks help fax my big quiz. Quick, Baz, get my woven flax jodhpurs! "Now fax quiz Jack!" my brave ghost pled. Five quacking zephyrs jolt my wax bed. Flummoxed by job, kvetching W. zaps Iraq. Cozy sphinx waves quart jug of bad milk. A very bad quack might jinx zippy fowls. Few quips galvanized the mock jury box. Quick brown dogs jump over the lazy fox. The jay, pig, fox, zebra, and my wolves quack! Blowzy red vixens fight og. Watch "Jeo]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Sample Event Form]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[01/15/2020 08:00]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[01/20/2020 17:00]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[01/10/2019 07:00]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[01/14/2020 23:59]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[C:\\Users\\OJT - Project Sec1\\eclipse-workspace\\SeleniumFrameworkFujiSankeiWebsite\\Sample Test Files\\Portable Document File Sample.pdf]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Custom]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[01/21/2020 10:00 ]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[02/21/2020 10:00 ]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[C:\\Users\\OJT - Project Sec1\\eclipse-workspace\\SeleniumFrameworkFujiSankeiWebsite\\Sample Test Files\\1.jpg]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[PEMC Event Survey Form]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Required]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[Please fill all required(*) fields.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateEvent -->
+        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-17T19:14:25 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-17T19:14:38 SGT" duration-ms="13550" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Private]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PEMC Grand Private Event]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Boni Mandaluyong near MRT Boni Station]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox nymphs grab quick-jived waltz. Brick quiz whangs jumpy veldt fox. Bright vixens jump; dozy fowl quack. Quick wafting zephyrs vex bold Jim. Quick zephyrs blow, vexing daft Jim. Sex-charged fop blew my junk TV quiz. How quickly daft jumping zebras vex. Two driven jocks help fax my big quiz. Quick, Baz, get my woven flax jodhpurs! "Now fax quiz Jack!" my brave ghost pled. Five quacking zephyrs jolt my wax bed. Flummoxed by job, kvetching W. zaps Iraq. Cozy sphinx waves quart jug of bad milk. A very bad quack might jinx zippy fowls. Few quips galvanized the mock jury box. Quick brown dogs jump over the lazy fox. The jay, pig, fox, zebra, and my wolves quack! Blowzy red vixens fight og. Watch "Jeo]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Sample Event Form]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[01/15/2020 08:00]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[01/20/2020 17:00]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[01/10/2019 07:00]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[01/14/2020 23:59]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[C:\\Users\\OJT - Project Sec1\\eclipse-workspace\\SeleniumFrameworkFujiSankeiWebsite\\Sample Test Files\\Portable Document File Sample.pdf]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Lifetime]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[01/21/2020 10:00 ]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[01/21/2020 10:00 ]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[C:\\Users\\OJT - Project Sec1\\eclipse-workspace\\SeleniumFrameworkFujiSankeiWebsite\\Sample Test Files\\1.jpg]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[PEMC Event Survey Form]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Required]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[Please fill all required(*) fields.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateEvent -->
+        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-17T19:14:38 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-17T19:15:05 SGT" duration-ms="26764" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Private]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PEMC Grand Private Event]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Boni Mandaluyong near MRT Boni Station]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox nymphs grab quick-jived waltz. Brick quiz whangs jumpy veldt fox. Bright vixens jump; dozy fowl quack. Quick wafting zephyrs vex bold Jim. Quick zephyrs blow, vexing daft Jim. Sex-charged fop blew my junk TV quiz. How quickly daft jumping zebras vex. Two driven jocks help fax my big quiz. Quick, Baz, get my woven flax jodhpurs! "Now fax quiz Jack!" my brave ghost pled. Five quacking zephyrs jolt my wax bed. Flummoxed by job, kvetching W. zaps Iraq. Cozy sphinx waves quart jug of bad milk. A very bad quack might jinx zippy fowls. Few quips galvanized the mock jury box. Quick brown dogs jump over the lazy fox. The jay, pig, fox, zebra, and my wolves quack! Blowzy red vixens fight og. Watch "Jeo]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Sample Event Form]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[01/15/2020 08:00]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[01/20/2020 17:00]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[01/10/2019 07:00]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[01/14/2020 23:59]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[C:\\Users\\OJT - Project Sec1\\eclipse-workspace\\SeleniumFrameworkFujiSankeiWebsite\\Sample Test Files\\Portable Document File Sample.pdf]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Lifetime]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[01/21/2020 10:00 ]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[01/21/2020 10:00 ]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[C:\\Users\\OJT - Project Sec1\\eclipse-workspace\\SeleniumFrameworkFujiSankeiWebsite\\Sample Test Files\\1.jpg]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[PEMC Event Survey Form]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Required]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[Please fill all required(*) fields.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateEvent -->
+        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-17T19:15:05 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-17T19:15:56 SGT" duration-ms="50514" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Public]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PEMC Grand Event]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Boni Mandaluyong near MRT Boni Station]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox nymphs grab quick-jived waltz. Brick quiz whangs jumpy veldt fox. Bright vixens jump; dozy fowl quack. Quick wafting zephyrs vex bold Jim. Quick zephyrs blow, vexing daft Jim. Sex-charged fop blew my junk TV quiz. How quickly daft jumping zebras vex. Two driven jocks help fax my big quiz. Quick, Baz, get my woven flax jodhpurs! "Now fax quiz Jack!" my brave ghost pled. Five quacking zephyrs jolt my wax bed. Flummoxed by job, kvetching W. zaps Iraq. Cozy sphinx waves quart jug of bad milk. A very bad quack might jinx zippy fowls. Few quips galvanized the mock jury box. Quick brown dogs jump over the lazy fox. The jay, pig, fox, zebra, and my wolves quack! Blowzy red vixens fight og. Watch "Jeo]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Sample Event Form]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[01/15/2020 08:00]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[01/20/2020 17:00]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[01/10/2019 07:00]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[01/14/2020 23:59]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[C:\\Users\\OJT - Project Sec1\\eclipse-workspace\\SeleniumFrameworkFujiSankeiWebsite\\Sample Test Files\\Portable Document File Sample.pdf]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Custom]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[01/21/2020 10:00 ]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[02/21/2020 10:00 ]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[C:\\Users\\OJT - Project Sec1\\eclipse-workspace\\SeleniumFrameworkFujiSankeiWebsite\\Sample Test Files\\1.jpg]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[PEMC Event Survey Form]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Required]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[Please fill all required(*) fields.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateEvent -->
+        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-17T19:15:56 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-17T19:16:32 SGT" duration-ms="36654" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Public]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PEMC Grand Event]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Boni Mandaluyong near MRT Boni Station]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox nymphs grab quick-jived waltz. Brick quiz whangs jumpy veldt fox. Bright vixens jump; dozy fowl quack. Quick wafting zephyrs vex bold Jim. Quick zephyrs blow, vexing daft Jim. Sex-charged fop blew my junk TV quiz. How quickly daft jumping zebras vex. Two driven jocks help fax my big quiz. Quick, Baz, get my woven flax jodhpurs! "Now fax quiz Jack!" my brave ghost pled. Five quacking zephyrs jolt my wax bed. Flummoxed by job, kvetching W. zaps Iraq. Cozy sphinx waves quart jug of bad milk. A very bad quack might jinx zippy fowls. Few quips galvanized the mock jury box. Quick brown dogs jump over the lazy fox. The jay, pig, fox, zebra, and my wolves quack! Blowzy red vixens fight og. Watch "Jeo]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Sample Event Form]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[01/15/2020 08:00]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[01/20/2020 17:00]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[01/10/2019 07:00]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[01/14/2020 23:59]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[C:\\Users\\OJT - Project Sec1\\eclipse-workspace\\SeleniumFrameworkFujiSankeiWebsite\\Sample Test Files\\Portable Document File Sample.pdf]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Custom]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[01/21/2020 10:00 ]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[02/21/2020 10:00 ]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[C:\\Users\\OJT - Project Sec1\\eclipse-workspace\\SeleniumFrameworkFujiSankeiWebsite\\Sample Test Files\\1.jpg]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[PEMC Event Survey Form]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Required]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[Please fill all required(*) fields.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateEvent -->
+        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-17T19:16:32 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-17T19:17:07 SGT" duration-ms="35196" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Public]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PEMC Grand Event]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Boni Mandaluyong near MRT Boni Station]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox nymphs grab quick-jived waltz. Brick quiz whangs jumpy veldt fox. Bright vixens jump; dozy fowl quack. Quick wafting zephyrs vex bold Jim. Quick zephyrs blow, vexing daft Jim. Sex-charged fop blew my junk TV quiz. How quickly daft jumping zebras vex. Two driven jocks help fax my big quiz. Quick, Baz, get my woven flax jodhpurs! "Now fax quiz Jack!" my brave ghost pled. Five quacking zephyrs jolt my wax bed. Flummoxed by job, kvetching W. zaps Iraq. Cozy sphinx waves quart jug of bad milk. A very bad quack might jinx zippy fowls. Few quips galvanized the mock jury box. Quick brown dogs jump over the lazy fox. The jay, pig, fox, zebra, and my wolves quack! Blowzy red vixens fight og. Watch "Jeo]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Sample Event Form]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[01/15/2020 08:00]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[01/20/2020 17:00]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[01/10/2019 07:00]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[01/14/2020 23:59]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[C:\\Users\\OJT - Project Sec1\\eclipse-workspace\\SeleniumFrameworkFujiSankeiWebsite\\Sample Test Files\\Portable Document File Sample.pdf]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Custom]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[01/21/2020 10:00 ]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[02/21/2020 10:00 ]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[C:\\Users\\OJT - Project Sec1\\eclipse-workspace\\SeleniumFrameworkFujiSankeiWebsite\\Sample Test Files\\1.jpg]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[PEMC Event Survey Form]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Required]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[Please fill all required(*) fields.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateEvent -->
+        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-17T19:17:07 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-17T19:17:40 SGT" duration-ms="32315" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Private]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PEMC Grand Private Event]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Boni Mandaluyong near MRT Boni Station]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox nymphs grab quick-jived waltz. Brick quiz whangs jumpy veldt fox. Bright vixens jump; dozy fowl quack. Quick wafting zephyrs vex bold Jim. Quick zephyrs blow, vexing daft Jim. Sex-charged fop blew my junk TV quiz. How quickly daft jumping zebras vex. Two driven jocks help fax my big quiz. Quick, Baz, get my woven flax jodhpurs! "Now fax quiz Jack!" my brave ghost pled. Five quacking zephyrs jolt my wax bed. Flummoxed by job, kvetching W. zaps Iraq. Cozy sphinx waves quart jug of bad milk. A very bad quack might jinx zippy fowls. Few quips galvanized the mock jury box. Quick brown dogs jump over the lazy fox. The jay, pig, fox, zebra, and my wolves quack! Blowzy red vixens fight og. Watch "Jeo]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Sample Event Form]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[01/15/2020 08:00]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[01/20/2020 17:00]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[01/10/2019 07:00]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[01/14/2020 23:59]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[C:\\Users\\OJT - Project Sec1\\eclipse-workspace\\SeleniumFrameworkFujiSankeiWebsite\\Sample Test Files\\Portable Document File Sample.pdf]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Lifetime]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[01/21/2020 10:00 ]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[01/21/2020 10:00 ]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[C:\\Users\\OJT - Project Sec1\\eclipse-workspace\\SeleniumFrameworkFujiSankeiWebsite\\Sample Test Files\\1.jpg]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[PEMC Event Survey Form]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Required]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[Please fill all required(*) fields.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateEvent -->
+        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-17T19:17:40 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-17T19:18:13 SGT" duration-ms="33615" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Private]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PEMC Grand Private Event]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Boni Mandaluyong near MRT Boni Station]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox nymphs grab quick-jived waltz. Brick quiz whangs jumpy veldt fox. Bright vixens jump; dozy fowl quack. Quick wafting zephyrs vex bold Jim. Quick zephyrs blow, vexing daft Jim. Sex-charged fop blew my junk TV quiz. How quickly daft jumping zebras vex. Two driven jocks help fax my big quiz. Quick, Baz, get my woven flax jodhpurs! "Now fax quiz Jack!" my brave ghost pled. Five quacking zephyrs jolt my wax bed. Flummoxed by job, kvetching W. zaps Iraq. Cozy sphinx waves quart jug of bad milk. A very bad quack might jinx zippy fowls. Few quips galvanized the mock jury box. Quick brown dogs jump over the lazy fox. The jay, pig, fox, zebra, and my wolves quack! Blowzy red vixens fight og. Watch "Jeo]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Sample Event Form]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[01/15/2020 08:00]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[01/20/2020 17:00]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[01/10/2019 07:00]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[01/14/2020 23:59]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[C:\\Users\\OJT - Project Sec1\\eclipse-workspace\\SeleniumFrameworkFujiSankeiWebsite\\Sample Test Files\\Portable Document File Sample.pdf]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Lifetime]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[01/21/2020 10:00 ]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[01/21/2020 10:00 ]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[C:\\Users\\OJT - Project Sec1\\eclipse-workspace\\SeleniumFrameworkFujiSankeiWebsite\\Sample Test Files\\1.jpg]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[PEMC Event Survey Form]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Required]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[Please fill all required(*) fields.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateEvent -->
+        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-17T19:18:13 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-17T19:18:47 SGT" duration-ms="33588" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Private]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PEMC Grand Private Event]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Boni Mandaluyong near MRT Boni Station]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox nymphs grab quick-jived waltz. Brick quiz whangs jumpy veldt fox. Bright vixens jump; dozy fowl quack. Quick wafting zephyrs vex bold Jim. Quick zephyrs blow, vexing daft Jim. Sex-charged fop blew my junk TV quiz. How quickly daft jumping zebras vex. Two driven jocks help fax my big quiz. Quick, Baz, get my woven flax jodhpurs! "Now fax quiz Jack!" my brave ghost pled. Five quacking zephyrs jolt my wax bed. Flummoxed by job, kvetching W. zaps Iraq. Cozy sphinx waves quart jug of bad milk. A very bad quack might jinx zippy fowls. Few quips galvanized the mock jury box. Quick brown dogs jump over the lazy fox. The jay, pig, fox, zebra, and my wolves quack! Blowzy red vixens fight og. Watch "Jeo]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Sample Event Form]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[01/15/2020 08:00]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[01/20/2020 17:00]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[01/10/2019 07:00]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[01/14/2020 23:59]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[C:\\Users\\OJT - Project Sec1\\eclipse-workspace\\SeleniumFrameworkFujiSankeiWebsite\\Sample Test Files\\Portable Document File Sample.pdf]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Lifetime]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[01/21/2020 10:00 ]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[01/21/2020 10:00 ]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[C:\\Users\\OJT - Project Sec1\\eclipse-workspace\\SeleniumFrameworkFujiSankeiWebsite\\Sample Test Files\\1.jpg]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[PEMC Event Survey Form]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Required]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[Please fill all required(*) fields.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateEvent -->
+        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-17T19:18:47 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-17T19:19:03 SGT" duration-ms="16150" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Public]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PEMC Grand Event]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Boni Mandaluyong near MRT Boni Station]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox nymphs grab quick-jived waltz. Brick quiz whangs jumpy veldt fox. Bright vixens jump; dozy fowl quack. Quick wafting zephyrs vex bold Jim. Quick zephyrs blow, vexing daft Jim. Sex-charged fop blew my junk TV quiz. How quickly daft jumping zebras vex. Two driven jocks help fax my big quiz. Quick, Baz, get my woven flax jodhpurs! "Now fax quiz Jack!" my brave ghost pled. Five quacking zephyrs jolt my wax bed. Flummoxed by job, kvetching W. zaps Iraq. Cozy sphinx waves quart jug of bad milk. A very bad quack might jinx zippy fowls. Few quips galvanized the mock jury box. Quick brown dogs jump over the lazy fox. The jay, pig, fox, zebra, and my wolves quack! Blowzy red vixens fight og. Watch "Jeo]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Sample Event Form]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[01/15/2020 08:00]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[01/20/2020 17:00]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[01/10/2019 07:00]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[01/14/2020 23:59]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[C:\\Users\\OJT - Project Sec1\\eclipse-workspace\\SeleniumFrameworkFujiSankeiWebsite\\Sample Test Files\\Portable Document File Sample.pdf]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Custom]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[01/21/2020 10:00 ]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[02/21/2020 10:00 ]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[C:\\Users\\OJT - Project Sec1\\eclipse-workspace\\SeleniumFrameworkFujiSankeiWebsite\\Sample Test Files\\1.jpg]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[PEMC Event Survey Form]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Required]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[Please fill all required(*) fields.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateEvent -->
+        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-17T19:19:03 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-17T19:19:26 SGT" duration-ms="23206" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Public]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PEMC Grand Event]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Boni Mandaluyong near MRT Boni Station]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox nymphs grab quick-jived waltz. Brick quiz whangs jumpy veldt fox. Bright vixens jump; dozy fowl quack. Quick wafting zephyrs vex bold Jim. Quick zephyrs blow, vexing daft Jim. Sex-charged fop blew my junk TV quiz. How quickly daft jumping zebras vex. Two driven jocks help fax my big quiz. Quick, Baz, get my woven flax jodhpurs! "Now fax quiz Jack!" my brave ghost pled. Five quacking zephyrs jolt my wax bed. Flummoxed by job, kvetching W. zaps Iraq. Cozy sphinx waves quart jug of bad milk. A very bad quack might jinx zippy fowls. Few quips galvanized the mock jury box. Quick brown dogs jump over the lazy fox. The jay, pig, fox, zebra, and my wolves quack! Blowzy red vixens fight og. Watch "Jeo]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Sample Event Form]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[01/15/2020 08:00]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[01/20/2020 17:00]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[01/10/2019 07:00]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[01/14/2020 23:59]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[C:\\Users\\OJT - Project Sec1\\eclipse-workspace\\SeleniumFrameworkFujiSankeiWebsite\\Sample Test Files\\Portable Document File Sample.pdf]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Custom]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[01/21/2020 10:00 ]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[02/21/2020 10:00 ]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[C:\\Users\\OJT - Project Sec1\\eclipse-workspace\\SeleniumFrameworkFujiSankeiWebsite\\Sample Test Files\\1.jpg]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[PEMC Event Survey Form]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Required]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[Please fill all required(*) fields.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateEvent -->
+        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-17T19:19:26 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-17T19:20:02 SGT" duration-ms="35324" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Public]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PEMC Grand Event]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Boni Mandaluyong near MRT Boni Station]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox nymphs grab quick-jived waltz. Brick quiz whangs jumpy veldt fox. Bright vixens jump; dozy fowl quack. Quick wafting zephyrs vex bold Jim. Quick zephyrs blow, vexing daft Jim. Sex-charged fop blew my junk TV quiz. How quickly daft jumping zebras vex. Two driven jocks help fax my big quiz. Quick, Baz, get my woven flax jodhpurs! "Now fax quiz Jack!" my brave ghost pled. Five quacking zephyrs jolt my wax bed. Flummoxed by job, kvetching W. zaps Iraq. Cozy sphinx waves quart jug of bad milk. A very bad quack might jinx zippy fowls. Few quips galvanized the mock jury box. Quick brown dogs jump over the lazy fox. The jay, pig, fox, zebra, and my wolves quack! Blowzy red vixens fight og. Watch "Jeo]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Sample Event Form]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[01/15/2020 08:00]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[01/20/2020 17:00]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[01/10/2019 07:00]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[01/14/2020 23:59]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[C:\\Users\\OJT - Project Sec1\\eclipse-workspace\\SeleniumFrameworkFujiSankeiWebsite\\Sample Test Files\\Portable Document File Sample.pdf]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Custom]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[01/21/2020 10:00 ]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[02/21/2020 10:00 ]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[C:\\Users\\OJT - Project Sec1\\eclipse-workspace\\SeleniumFrameworkFujiSankeiWebsite\\Sample Test Files\\1.jpg]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[PEMC Event Survey Form]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Required]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[Please fill all required(*) fields.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateEvent -->
+        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-17T19:20:02 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-17T19:20:35 SGT" duration-ms="33764" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Private]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PEMC Grand Private Event]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Boni Mandaluyong near MRT Boni Station]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox nymphs grab quick-jived waltz. Brick quiz whangs jumpy veldt fox. Bright vixens jump; dozy fowl quack. Quick wafting zephyrs vex bold Jim. Quick zephyrs blow, vexing daft Jim. Sex-charged fop blew my junk TV quiz. How quickly daft jumping zebras vex. Two driven jocks help fax my big quiz. Quick, Baz, get my woven flax jodhpurs! "Now fax quiz Jack!" my brave ghost pled. Five quacking zephyrs jolt my wax bed. Flummoxed by job, kvetching W. zaps Iraq. Cozy sphinx waves quart jug of bad milk. A very bad quack might jinx zippy fowls. Few quips galvanized the mock jury box. Quick brown dogs jump over the lazy fox. The jay, pig, fox, zebra, and my wolves quack! Blowzy red vixens fight og. Watch "Jeo]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Sample Event Form]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[01/15/2020 08:00]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[01/20/2020 17:00]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[01/10/2019 07:00]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[01/14/2020 23:59]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[C:\\Users\\OJT - Project Sec1\\eclipse-workspace\\SeleniumFrameworkFujiSankeiWebsite\\Sample Test Files\\Portable Document File Sample.pdf]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Lifetime]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[01/21/2020 10:00 ]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[01/21/2020 10:00 ]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[C:\\Users\\OJT - Project Sec1\\eclipse-workspace\\SeleniumFrameworkFujiSankeiWebsite\\Sample Test Files\\1.jpg]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[PEMC Event Survey Form]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Required]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[Please fill all required(*) fields.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateEvent -->
+        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-17T19:20:35 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-17T19:21:09 SGT" duration-ms="33420" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Private]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PEMC Grand Private Event]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Boni Mandaluyong near MRT Boni Station]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox nymphs grab quick-jived waltz. Brick quiz whangs jumpy veldt fox. Bright vixens jump; dozy fowl quack. Quick wafting zephyrs vex bold Jim. Quick zephyrs blow, vexing daft Jim. Sex-charged fop blew my junk TV quiz. How quickly daft jumping zebras vex. Two driven jocks help fax my big quiz. Quick, Baz, get my woven flax jodhpurs! "Now fax quiz Jack!" my brave ghost pled. Five quacking zephyrs jolt my wax bed. Flummoxed by job, kvetching W. zaps Iraq. Cozy sphinx waves quart jug of bad milk. A very bad quack might jinx zippy fowls. Few quips galvanized the mock jury box. Quick brown dogs jump over the lazy fox. The jay, pig, fox, zebra, and my wolves quack! Blowzy red vixens fight og. Watch "Jeo]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Sample Event Form]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[01/15/2020 08:00]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[01/20/2020 17:00]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[01/10/2019 07:00]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[01/14/2020 23:59]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[C:\\Users\\OJT - Project Sec1\\eclipse-workspace\\SeleniumFrameworkFujiSankeiWebsite\\Sample Test Files\\Portable Document File Sample.pdf]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Lifetime]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[01/21/2020 10:00 ]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[01/21/2020 10:00 ]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[C:\\Users\\OJT - Project Sec1\\eclipse-workspace\\SeleniumFrameworkFujiSankeiWebsite\\Sample Test Files\\1.jpg]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[PEMC Event Survey Form]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Required]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[Please fill all required(*) fields.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateEvent -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-17T19:21:09 SGT" name="tearDown" finished-at="2020-01-17T19:21:10 SGT" duration-ms="1002" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- WOG.CMS_LoginTest -->
+      </class> <!-- WOG.CMS_EventsAndTrainingsTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

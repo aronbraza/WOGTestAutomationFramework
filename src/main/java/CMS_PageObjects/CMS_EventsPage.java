@@ -7,12 +7,16 @@ import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.openqa.selenium.ElementNotInteractableException;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import resources.base;
 
@@ -24,11 +28,23 @@ public class CMS_EventsPage extends base  {
 		PageFactory.initElements(driver, this);
 	 }
 	 
+	 @FindBy(className="errMsg")
+	 private WebElement messageHolder_Text;
+	 
 	 @FindBy(css="[class=\"rightColumnContentHolder\"] table")
 	 private List<WebElement> All_Events_List;
 	 
-	 @FindBy(css="tbody td:nth-child(2)")
-	 private List<WebElement> Event_Name_List;
+	 @FindBy(css="table tr td:nth-child(2)")
+	 private List<WebElement> eventName;
+	 
+	 @FindBy(css="table tr td:nth-child(3)")
+	 private List<WebElement> eventSchedule;
+	 
+	 @FindBy(css="table tr td:nth-child(4)")
+	 private List<WebElement> eventLocation;
+	 
+	 @FindBy(css="table tr td:nth-child(5)")
+	 private List<WebElement> eventRegistrationDeadline;
 	 
 	 @FindBy(linkText="Edit")
 	 private List<WebElement> Edit_Linktext;
@@ -59,8 +75,9 @@ public class CMS_EventsPage extends base  {
 		@FindBy(id="pagePrivacy")
 		private WebElement Event_Privacy_Dropdown;
 		
-		@FindBy(name="name")
+		@FindBy(name="access[]")
 		private List<WebElement> Allow_Registration_Checkbox;
+		
 		
 		@FindBy(name="eventName")
 		private WebElement Event_Name_Textbox;
@@ -68,10 +85,10 @@ public class CMS_EventsPage extends base  {
 		@FindBy(name="eventLocation")
 		private WebElement Event_Location_Textbox;
 		
-		@FindBy(css="[class=\"cke_wysiwyg_frame cke_reset\"]")
+		@FindBy(css="iframe[class*='cke_wysiwyg_frame']")
 		private WebElement Event_Description_Iframe;
 		
-		@FindBy(tagName="body")
+		@FindBy(tagName = "body")
 		private WebElement EventDescription_Body;
 		
 		@FindBy(id="eventFormTemplate")
@@ -155,23 +172,131 @@ public class CMS_EventsPage extends base  {
 		
 		@FindBy(id="createEventButton")
 		private WebElement Add_Event_Button;
+
+		@FindBy(css="table tbody tr")
+		private List<WebElement> eventRow;
 		
+		public String getMessage_Holder_Text()
+		{
+			return messageHolder_Text.getText();
+		}
 		
-		public String getAll_Events_List()
+		public ArrayList<String> getAll_Events_List()
 		{
 			List<String> getEvents_List = new ArrayList<String>();
 			for(WebElement item: All_Events_List)
 			{
 				getEvents_List.add(item.getText());
 			}
-			return getEvents_List.toString();
+			
+			return (ArrayList<String>) getEvents_List;
+			
+			
 		}
+		
+		public String getEventName(String Event_Name)
+		{
+			String name="";
+			
+			for(int i=0; i<eventName.size(); i++)
+			{
+				if(eventName.get(i).getText().contains(Event_Name))
+				{
+					name = eventName.get(i).getText();
+					break;
+				}
+			}
+			return name;
+		}
+		
+		public String getEventSchedule(String Event_Schedule)
+		{
+			String schedule="";
+			
+			for(int i=0; i<eventSchedule.size(); i++)
+			{
+				if(eventSchedule.get(i).getText().contains(Event_Schedule))
+				{
+					schedule = eventSchedule.get(i).getText();
+					break;
+				}
+			}
+			return schedule;
+		}
+		
+		public String getEventLocation(String Event_Location)
+		{
+			String location="";
+			
+			for(int i=0; i<eventLocation.size(); i++)
+			{
+				if(eventLocation.get(i).getText().contains(Event_Location))
+				{
+					location = eventLocation.get(i).getText();
+					break;
+				}
+			}
+			return location;
+		}
+		
+		public String priv()
+		{
+			return Event_Privacy_Dropdown.getText();
+		}
+		
+		public String getEventRegistrationDeadline(String Event_Reg_Deadline)
+		{
+			String deadline="";
+			
+			for(int i=0; i<eventRegistrationDeadline.size(); i++)
+			{
+				if(eventRegistrationDeadline.get(i).getText().contains(Event_Reg_Deadline))
+				{
+					deadline = eventRegistrationDeadline.get(i).getText();
+					break;
+				}
+			}
+			return deadline;
+		}
+		
+		public String getEventInfo(String Event_Name)
+		{
+			while(!getAll_Events_List().toString().contains(Event_Name))
+			{
+				Next_Linktext.click();
+			}
+			
+			List<String> getEvent = new ArrayList<String>();
+			for(int i=0; i<eventRow.size(); i++)
+			{
+				
+				if(eventRow.get(i).getText().contains(Event_Name))
+				{
+					getEvent.add(eventRow.get(i).getText());
+					break;
+				}
+				
+			}
+			return  getEvent.toString();
+		}
+		
+		
+		
 		
 		public void setEvent_Privacy_Dropdown(String Event_Privacy)
 		{
 			Select privacy = new Select(Event_Privacy_Dropdown);
-			privacy.selectByVisibleText("Public");
+			privacy.selectByVisibleText(Event_Privacy);
 			
+		}
+		
+		public void clickWCO_Checkbox(String Event_Privacy)
+		{
+			if(Event_Privacy_Dropdown.getAttribute("value").equalsIgnoreCase(Event_Privacy))
+			{
+				Allow_Registration_Checkbox.get(0).click();
+				
+			}
 		}
 		
 		public void clickAllow_Registration_Checkbox(String Allow_For)
@@ -201,7 +326,7 @@ public class CMS_EventsPage extends base  {
 		public void set_Event_Description_Textbox(String Event_Description)
 		{
 			driver.switchTo().frame(Event_Description_Iframe);
-			EventDescription_Body.clear();
+			//EventDescription_Body.clear();
 			EventDescription_Body.sendKeys(Event_Description);
 			driver.switchTo().defaultContent();
 		}
@@ -236,24 +361,29 @@ public class CMS_EventsPage extends base  {
 			Registration_End_Date_Textbox.sendKeys(Registration_End_Date);
 		}
 		
-		public void setLifetime_Start_Date_Textbox(String Lifetime_Start_Date)
+		public void setDate_On_Presentation_Materials(String Lifetime_Start_Date, String Custom_Start_Date, String Custom_End_Date)
 		{
-			Lifetime_Start_Date_Textbox.clear();
-			Lifetime_Start_Date_Textbox.sendKeys(Lifetime_Start_Date);
-		}
-		
-		public void setCustom_Start_Date_Textbox(String Custom_Start_Date)
-		{
-			Custom_Start_Date_Textbox.clear();
-			Custom_Start_Date_Textbox.sendKeys(Custom_Start_Date);
-		}
-		
-		public void setCustom_End_Date_Textbox(String Custom_End_Date)
-		{
-			Custom_End_Date_Textbox.clear();
-			Custom_End_Date_Textbox.sendKeys(Custom_End_Date);
+			if(Presentation_Materials_Availability_Radiobutton.get(0).isSelected())
+			{
+				Lifetime_Start_Date_Textbox.clear();
+				Lifetime_Start_Date_Textbox.sendKeys(Lifetime_Start_Date);
+				Date_Picker_Done_Button.click();
+			}
+			else if(Presentation_Materials_Availability_Radiobutton.get(1).isSelected())
+			{
+				Custom_Start_Date_Textbox.clear();
+				Custom_Start_Date_Textbox.sendKeys(Custom_Start_Date);
+				
+				Custom_End_Date_Textbox.clear();
+				Custom_End_Date_Textbox.sendKeys(Custom_End_Date);
+				Date_Picker_Done_Button.click();
+			}
 		}
 			
+		
+		
+		//Code for selecting date on datepicker.
+		/*
 		public void selectEvent_Start_Date(String Month, String Day, String Hour, String Minute)
 		{
 			Event_Start_Date_Textbox.click();
@@ -278,81 +408,8 @@ public class CMS_EventsPage extends base  {
 			minute.selectByVisibleText(Minute);
 			Date_Picker_Done_Button.click();
 		}
-		
-		public void selectEvent_End_Date(String Month, String Day, String Hour, String Minute)
-		{
-			Event_End_Date_Textbox.click();
-			while(!Date_Picker_Month.getText().contains(Month))
-			{
-				executor.executeScript("arguments[0].click();", Date_Picker_Next_Button);
-			}
-			
-			for(int i=0; i<Date_Picker_Days.size(); i++)
-			{
-				String day = Date_Picker_Days.get(i).getText();
-				if(day.equals(Day))
-				{
-					Date_Picker_Days.get(i).click();
-					break;
-				}
-			}
-			
-			Select hour = new Select(Date_Picker_Hour_Dropdown);
-			hour.selectByVisibleText(Hour);
-			Select minute = new Select(Date_Picker_Minute_Dropdown);
-			minute.selectByVisibleText(Minute);
-			Date_Picker_Done_Button.click();
-		}
-		
-		public void selectRegistration_Start_Date(String Month, String Day, String Hour, String Minute)
-		{
-			Registration_Start_Date_Textbox.click();
-			while(!Date_Picker_Month.getText().contains(Month))
-			{
-				executor.executeScript("arguments[0].click();", Date_Picker_Next_Button);
-			}
-			
-			for(int i=0; i<Date_Picker_Days.size(); i++)
-			{
-				String day = Date_Picker_Days.get(i).getText();
-				if(day.equals(Day))
-				{
-					Date_Picker_Days.get(i).click();
-					break;
-				}
-			}
-			
-			Select hour = new Select(Date_Picker_Hour_Dropdown);
-			hour.selectByVisibleText(Hour);
-			Select minute = new Select(Date_Picker_Minute_Dropdown);
-			minute.selectByVisibleText(Minute);
-			Date_Picker_Done_Button.click();
-		}
-		
-		public void selectRegistration_End_Date(String Month, String Day, String Hour, String Minute)
-		{
-			Registration_End_Date_Textbox.click();
-			while(!Date_Picker_Month.getText().contains(Month))
-			{
-				executor.executeScript("arguments[0].click();", Date_Picker_Next_Button);
-			}
-			
-			for(int i=0; i<Date_Picker_Days.size(); i++)
-			{
-				String day = Date_Picker_Days.get(i).getText();
-				if(day.equals(Day))
-				{
-					Date_Picker_Days.get(i).click();
-					break;
-				}
-			}
-			
-			Select hour = new Select(Date_Picker_Hour_Dropdown);
-			hour.selectByVisibleText(Hour);
-			Select minute = new Select(Date_Picker_Minute_Dropdown);
-			minute.selectByVisibleText(Minute);
-			Date_Picker_Done_Button.click();
-		}
+		*/
+
 		
 		public void clickPresentation_Materials_Radiobutton(String Availability)
 		{
@@ -372,83 +429,6 @@ public class CMS_EventsPage extends base  {
 
 		}
 		
-		public void selectLifetime_Start_Date(String Month, String Day, String Hour, String Minute)
-		{
-			Lifetime_Start_Date_Textbox.click();
-			while(!Date_Picker_Month.getText().contains(Month))
-			{
-				executor.executeScript("arguments[0].click();", Date_Picker_Next_Button);
-			}
-			
-			for(int i=0; i<Date_Picker_Days.size(); i++)
-			{
-				String day = Date_Picker_Days.get(i).getText();
-				if(day.equals(Day))
-				{
-					Date_Picker_Days.get(i).click();
-					break;
-				}
-			}
-			
-			Select hour = new Select(Date_Picker_Hour_Dropdown);
-			hour.selectByVisibleText(Hour);
-			Select minute = new Select(Date_Picker_Minute_Dropdown);
-			minute.selectByVisibleText(Minute);
-			Date_Picker_Done_Button.click();
-		}
-		
-		
-		
-		public void selectCustom_Start_Date(String Month, String Day, String Hour, String Minute)
-		{
-			Custom_Start_Date_Textbox.click();
-			while(!Date_Picker_Month.getText().contains(Month))
-			{
-				executor.executeScript("arguments[0].click();", Date_Picker_Next_Button);
-			}
-			
-			for(int i=0; i<Date_Picker_Days.size(); i++)
-			{
-				String day = Date_Picker_Days.get(i).getText();
-				if(day.equals(Day))
-				{
-					Date_Picker_Days.get(i).click();
-					
-				}
-			}
-			
-			Select hour = new Select(Date_Picker_Hour_Dropdown);
-			hour.selectByVisibleText(Hour);
-			Select minute = new Select(Date_Picker_Minute_Dropdown);
-			minute.selectByVisibleText(Minute);
-			Date_Picker_Done_Button.click();
-		}
-		
-		public void selectCustom_End_Date(String Month, String Day, String Hour, String Minute)
-		{
-			Custom_End_Date_Textbox.click();
-			while(!Date_Picker_Month.getText().contains(Month))
-			{
-				executor.executeScript("arguments[0].click();", Date_Picker_Next_Button);
-				
-			}
-			
-			for(int i=0; i<Date_Picker_Days.size(); i++)
-			{
-				String day = Date_Picker_Days.get(i).getText();
-				if(day.equals(Day))
-				{
-					Date_Picker_Days.get(i).click();
-					break;
-				}
-			}
-			
-			Select hour = new Select(Date_Picker_Hour_Dropdown);
-			hour.selectByVisibleText(Hour);
-			Select minute = new Select(Date_Picker_Minute_Dropdown);
-			minute.selectByVisibleText(Minute);
-			Date_Picker_Done_Button.click();
-		}
 		
 		public void uploadFeatured_Image(String ImagePath)
 		{
@@ -463,19 +443,32 @@ public class CMS_EventsPage extends base  {
 		
 		public void setSurvey_Required_Dropdown(String SurveyReq)
 		{
-			Select value = new Select(Survey_Required_Dropdown);
-			value.selectByVisibleText(SurveyReq);
+			try 
+			{
+				Select value = new Select(Survey_Required_Dropdown);
+				value.selectByVisibleText(SurveyReq);
+			} catch (ElementNotInteractableException e) {
+				System.out.println(e.getMessage());
+			}
+			
 		}
 		
 		public void clickAllow_Invitation()
 		{
-			Allow_Invitation_Checkbox.click();
+			
+			//Allow_Invitation_Checkbox.click();
+			executor.executeScript("arguments[0].click();", Allow_Invitation_Checkbox);
 		}
 		
+		WebDriverWait wait = new WebDriverWait(driver, 30);
 		public void setNumber_Of_Slots_Textbox(String Slots)
 		{
-			Number_Of_Slots_Textbox.clear();
-			Number_Of_Slots_Textbox.sendKeys(Slots);
+			if(Allow_Invitation_Checkbox.isSelected())
+			{
+				wait.until(ExpectedConditions.visibilityOf(Number_Of_Slots_Textbox)).clear();
+				//Number_Of_Slots_Textbox.clear();
+				Number_Of_Slots_Textbox.sendKeys(Slots);
+			}
 		}
 		
 		public void setActivate_Dropdown(String Activate)
@@ -486,25 +479,12 @@ public class CMS_EventsPage extends base  {
 		
 		public void clickAdd_Event_Button()
 		{
-			Add_Event_Button.click();
+			//Add_Event_Button.click();
+			executor.executeScript("arguments[0].click();", Add_Event_Button);
 		}
 		
-		public void clickEdit_Linktext(String EventName)
-		{
-			while(!getAll_Events_List().contains(EventName))
-			{
-				Next_Linktext.click();
-			}
-			
-			for(int i=0; i<Edit_Linktext.size(); i++)
-			{
-				if(Event_Name_List.get(i).getText().contains(EventName))
-				{
-					Edit_Linktext.get(i).click();
-					break;
-				}
-			}
-		}
+		
+		
 		
 		
 

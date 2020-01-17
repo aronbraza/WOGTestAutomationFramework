@@ -1,11 +1,9 @@
 package TestData;
 
 import java.io.IOException;
-import java.util.Iterator;
 
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.CellType;
-import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.util.NumberToTextConverter;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
@@ -48,6 +46,12 @@ public class ExcelUtil {
 		{
 			 cellData = sheet.getRow(rowNum).getCell(colNum).getStringCellValue();
 		}
+		
+		else if(cell.getCellType() == CellType.BLANK)
+		{
+			cellData =  sheet.getRow(rowNum).getCell(colNum).getStringCellValue().toString().replace("", "");
+		}
+		
 		else
 		{
 			 cellData = NumberToTextConverter.toText(sheet.getRow(rowNum).getCell(colNum).getNumericCellValue());

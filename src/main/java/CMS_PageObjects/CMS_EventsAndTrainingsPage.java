@@ -1,15 +1,19 @@
 package CMS_PageObjects;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import resources.base;
 
 public class CMS_EventsAndTrainingsPage extends base {
 	
-
+	JavascriptExecutor executor = (JavascriptExecutor)driver;
+	WebDriverWait wait = new WebDriverWait(driver, 60);// 1 minute 
 	
 	public CMS_EventsAndTrainingsPage(WebDriver driver)
 	{
@@ -39,13 +43,17 @@ public class CMS_EventsAndTrainingsPage extends base {
 	
 	public void clickEvents()
 	{
-		Events.click();
+		//Events.click();
+		executor.executeScript("arguments[0].click();",Events);
 	}
+	
 	
 	public void clickCreate_Event()
 	{
-		Create_Event.click();
+		executor.executeScript("arguments[0].click();",Create_Event);
 	}
+	
+	
 	
 	public void clickTrainings()
 	{

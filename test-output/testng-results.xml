@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="32" passed="32" failed="0" skipped="0">
+<testng-results ignored="0" total="33" passed="33" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-01-17T19:06:06 SGT" name="Default suite" finished-at="2020-01-17T19:21:10 SGT" duration-ms="904165">
+  <suite started-at="2020-01-20T18:34:11 SGT" name="Default suite" finished-at="2020-01-20T18:40:41 SGT" duration-ms="390143">
     <groups>
     </groups>
-    <test started-at="2020-01-17T19:06:06 SGT" name="Default test" finished-at="2020-01-17T19:21:10 SGT" duration-ms="904165">
+    <test started-at="2020-01-20T18:34:11 SGT" name="Default test" finished-at="2020-01-20T18:40:41 SGT" duration-ms="390143">
       <class name="WOG.CMS_EventsAndTrainingsTest">
-        <test-method is-config="true" signature="initialize()[pri:0, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-17T19:06:06 SGT" name="initialize" finished-at="2020-01-17T19:06:17 SGT" duration-ms="11413" status="PASS">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-20T18:34:11 SGT" name="initialize" finished-at="2020-01-20T18:34:25 SGT" duration-ms="14627" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method signature="login(java.lang.String, java.lang.String)[pri:1, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-17T19:06:19 SGT" name="login" data-provider="CMSLoginTestData1" finished-at="2020-01-17T19:06:20 SGT" duration-ms="1285" status="PASS">
+        <test-method signature="login(java.lang.String, java.lang.String)[pri:1, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-20T18:34:26 SGT" name="login" data-provider="CMSLoginTestData1" finished-at="2020-01-20T18:34:27 SGT" duration-ms="1151" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,7 +27,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-17T19:06:20 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-17T19:06:32 SGT" duration-ms="11461" status="PASS">
+        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-20T18:34:28 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-20T18:34:39 SGT" duration-ms="11343" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -56,22 +56,22 @@
             </param>
             <param index="5">
               <value>
-                <![CDATA[01/15/2020 08:00]]>
+                <![CDATA[02/12/2020 07:00]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[01/20/2020 17:00]]>
+                <![CDATA[02/13/2020 17:00]]>
               </value>
             </param>
             <param index="7">
               <value>
-                <![CDATA[01/10/2019 07:00]]>
+                <![CDATA[01/25/2020 07:00]]>
               </value>
             </param>
             <param index="8">
               <value>
-                <![CDATA[01/14/2020 23:59]]>
+                <![CDATA[01/30/2020 23:59]]>
               </value>
             </param>
             <param index="9">
@@ -91,7 +91,7 @@
             </param>
             <param index="12">
               <value>
-                <![CDATA[01/21/2020 10:00 ]]>
+                <![CDATA[02/14/2020 10:00 ]]>
               </value>
             </param>
             <param index="13">
@@ -133,7 +133,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateEvent -->
-        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-17T19:06:32 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-17T19:06:53 SGT" duration-ms="21520" status="PASS">
+        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-20T18:34:39 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-20T18:34:51 SGT" duration-ms="11611" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -162,22 +162,22 @@
             </param>
             <param index="5">
               <value>
-                <![CDATA[01/15/2020 08:00]]>
+                <![CDATA[02/12/2020 07:00]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[01/20/2020 17:00]]>
+                <![CDATA[02/13/2020 17:00]]>
               </value>
             </param>
             <param index="7">
               <value>
-                <![CDATA[01/10/2019 07:00]]>
+                <![CDATA[01/25/2020 07:00]]>
               </value>
             </param>
             <param index="8">
               <value>
-                <![CDATA[01/14/2020 23:59]]>
+                <![CDATA[01/30/2020 23:59]]>
               </value>
             </param>
             <param index="9">
@@ -192,12 +192,12 @@
             </param>
             <param index="11">
               <value>
-                <![CDATA[01/21/2020 10:00 ]]>
+                <![CDATA[02/14/2020 10:00 ]]>
               </value>
             </param>
             <param index="12">
               <value>
-                <![CDATA[01/21/2020 10:00 ]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="13">
@@ -239,7 +239,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateEvent -->
-        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-17T19:06:53 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-17T19:07:28 SGT" duration-ms="34362" status="PASS">
+        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-20T18:34:51 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-20T18:35:02 SGT" duration-ms="11534" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -268,22 +268,22 @@
             </param>
             <param index="5">
               <value>
-                <![CDATA[01/15/2020 08:00]]>
+                <![CDATA[02/12/2020 07:00]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[01/20/2020 17:00]]>
+                <![CDATA[02/13/2020 17:00]]>
               </value>
             </param>
             <param index="7">
               <value>
-                <![CDATA[01/10/2019 07:00]]>
+                <![CDATA[01/25/2020 07:01]]>
               </value>
             </param>
             <param index="8">
               <value>
-                <![CDATA[01/14/2020 23:59]]>
+                <![CDATA[01/30/2020 23:59]]>
               </value>
             </param>
             <param index="9">
@@ -298,12 +298,12 @@
             </param>
             <param index="11">
               <value>
-                <![CDATA[01/21/2020 10:00 ]]>
+                <![CDATA[02/14/2020 10:00 ]]>
               </value>
             </param>
             <param index="12">
               <value>
-                <![CDATA[01/21/2020 10:00 ]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="13">
@@ -345,7 +345,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateEvent -->
-        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-17T19:07:28 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-17T19:08:01 SGT" duration-ms="33282" status="PASS">
+        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-20T18:35:02 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-20T18:35:14 SGT" duration-ms="11811" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -374,22 +374,22 @@
             </param>
             <param index="5">
               <value>
-                <![CDATA[01/15/2020 08:00]]>
+                <![CDATA[02/12/2020 07:00]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[01/20/2020 17:00]]>
+                <![CDATA[02/13/2020 17:00]]>
               </value>
             </param>
             <param index="7">
               <value>
-                <![CDATA[01/10/2019 07:00]]>
+                <![CDATA[01/25/2020 07:02]]>
               </value>
             </param>
             <param index="8">
               <value>
-                <![CDATA[01/14/2020 23:59]]>
+                <![CDATA[01/30/2020 23:59]]>
               </value>
             </param>
             <param index="9">
@@ -404,12 +404,12 @@
             </param>
             <param index="11">
               <value>
-                <![CDATA[01/21/2020 10:00 ]]>
+                <![CDATA[02/14/2020 10:00 ]]>
               </value>
             </param>
             <param index="12">
               <value>
-                <![CDATA[01/21/2020 10:00 ]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="13">
@@ -451,7 +451,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateEvent -->
-        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-17T19:08:01 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-17T19:08:36 SGT" duration-ms="35316" status="PASS">
+        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-20T18:35:14 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-20T18:35:25 SGT" duration-ms="11145" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -480,22 +480,22 @@
             </param>
             <param index="5">
               <value>
-                <![CDATA[01/15/2020 08:00]]>
+                <![CDATA[02/12/2020 07:00]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[01/20/2020 17:00]]>
+                <![CDATA[02/13/2020 17:00]]>
               </value>
             </param>
             <param index="7">
               <value>
-                <![CDATA[01/10/2019 07:00]]>
+                <![CDATA[01/25/2020 07:03]]>
               </value>
             </param>
             <param index="8">
               <value>
-                <![CDATA[01/14/2020 23:59]]>
+                <![CDATA[01/30/2020 23:59]]>
               </value>
             </param>
             <param index="9">
@@ -510,12 +510,12 @@
             </param>
             <param index="11">
               <value>
-                <![CDATA[01/21/2020 10:00 ]]>
+                <![CDATA[02/14/2020 10:00 ]]>
               </value>
             </param>
             <param index="12">
               <value>
-                <![CDATA[01/21/2020 10:00 ]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="13">
@@ -557,7 +557,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateEvent -->
-        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-17T19:08:36 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-17T19:09:11 SGT" duration-ms="35034" status="PASS">
+        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-20T18:35:25 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-20T18:35:38 SGT" duration-ms="12639" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -586,22 +586,22 @@
             </param>
             <param index="5">
               <value>
-                <![CDATA[01/15/2020 08:00]]>
+                <![CDATA[02/12/2020 07:00]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[01/20/2020 17:00]]>
+                <![CDATA[02/13/2020 17:00]]>
               </value>
             </param>
             <param index="7">
               <value>
-                <![CDATA[01/10/2019 07:00]]>
+                <![CDATA[01/25/2020 07:04]]>
               </value>
             </param>
             <param index="8">
               <value>
-                <![CDATA[01/14/2020 23:59]]>
+                <![CDATA[01/30/2020 23:59]]>
               </value>
             </param>
             <param index="9">
@@ -621,7 +621,7 @@
             </param>
             <param index="12">
               <value>
-                <![CDATA[01/21/2020 10:00 ]]>
+                <![CDATA[02/14/2020 10:00 ]]>
               </value>
             </param>
             <param index="13">
@@ -663,7 +663,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateEvent -->
-        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-17T19:09:11 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-17T19:09:44 SGT" duration-ms="32830" status="PASS">
+        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-20T18:35:38 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-20T18:35:49 SGT" duration-ms="11406" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -692,22 +692,22 @@
             </param>
             <param index="5">
               <value>
-                <![CDATA[01/15/2020 08:00]]>
+                <![CDATA[02/12/2020 07:00]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[01/20/2020 17:00]]>
+                <![CDATA[02/13/2020 17:00]]>
               </value>
             </param>
             <param index="7">
               <value>
-                <![CDATA[01/10/2019 07:00]]>
+                <![CDATA[01/25/2020 07:05]]>
               </value>
             </param>
             <param index="8">
               <value>
-                <![CDATA[01/14/2020 23:59]]>
+                <![CDATA[01/30/2020 23:59]]>
               </value>
             </param>
             <param index="9">
@@ -722,12 +722,12 @@
             </param>
             <param index="11">
               <value>
-                <![CDATA[01/21/2020 10:00 ]]>
+                <![CDATA[02/14/2020 10:00 ]]>
               </value>
             </param>
             <param index="12">
               <value>
-                <![CDATA[01/21/2020 10:00 ]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="13">
@@ -769,7 +769,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateEvent -->
-        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-17T19:09:44 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-17T19:10:16 SGT" duration-ms="31999" status="PASS">
+        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-20T18:35:49 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-20T18:36:00 SGT" duration-ms="11032" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -798,22 +798,22 @@
             </param>
             <param index="5">
               <value>
-                <![CDATA[01/15/2020 08:00]]>
+                <![CDATA[02/12/2020 07:00]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[01/20/2020 17:00]]>
+                <![CDATA[02/13/2020 17:00]]>
               </value>
             </param>
             <param index="7">
               <value>
-                <![CDATA[01/10/2019 07:00]]>
+                <![CDATA[01/25/2020 07:06]]>
               </value>
             </param>
             <param index="8">
               <value>
-                <![CDATA[01/14/2020 23:59]]>
+                <![CDATA[01/30/2020 23:59]]>
               </value>
             </param>
             <param index="9">
@@ -828,12 +828,12 @@
             </param>
             <param index="11">
               <value>
-                <![CDATA[01/21/2020 10:00 ]]>
+                <![CDATA[02/14/2020 10:00 ]]>
               </value>
             </param>
             <param index="12">
               <value>
-                <![CDATA[01/21/2020 10:00 ]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="13">
@@ -875,7 +875,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateEvent -->
-        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-17T19:10:16 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-17T19:10:52 SGT" duration-ms="36042" status="PASS">
+        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-20T18:36:00 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-20T18:36:12 SGT" duration-ms="12166" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -904,22 +904,22 @@
             </param>
             <param index="5">
               <value>
-                <![CDATA[01/15/2020 08:00]]>
+                <![CDATA[02/12/2020 07:00]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[01/20/2020 17:00]]>
+                <![CDATA[02/13/2020 17:00]]>
               </value>
             </param>
             <param index="7">
               <value>
-                <![CDATA[01/10/2019 07:00]]>
+                <![CDATA[01/25/2020 07:07]]>
               </value>
             </param>
             <param index="8">
               <value>
-                <![CDATA[01/14/2020 23:59]]>
+                <![CDATA[01/30/2020 23:59]]>
               </value>
             </param>
             <param index="9">
@@ -939,7 +939,7 @@
             </param>
             <param index="12">
               <value>
-                <![CDATA[01/21/2020 10:00 ]]>
+                <![CDATA[02/14/2020 10:00 ]]>
               </value>
             </param>
             <param index="13">
@@ -981,7 +981,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateEvent -->
-        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-17T19:10:52 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-17T19:11:16 SGT" duration-ms="24382" status="PASS">
+        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-20T18:36:12 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-20T18:36:24 SGT" duration-ms="11516" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1010,22 +1010,22 @@
             </param>
             <param index="5">
               <value>
-                <![CDATA[01/15/2020 08:00]]>
+                <![CDATA[02/12/2020 07:00]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[01/20/2020 17:00]]>
+                <![CDATA[02/13/2020 17:00]]>
               </value>
             </param>
             <param index="7">
               <value>
-                <![CDATA[01/10/2019 07:00]]>
+                <![CDATA[01/25/2020 07:08]]>
               </value>
             </param>
             <param index="8">
               <value>
-                <![CDATA[01/14/2020 23:59]]>
+                <![CDATA[01/30/2020 23:59]]>
               </value>
             </param>
             <param index="9">
@@ -1045,7 +1045,7 @@
             </param>
             <param index="12">
               <value>
-                <![CDATA[01/21/2020 10:00 ]]>
+                <![CDATA[02/14/2020 10:00 ]]>
               </value>
             </param>
             <param index="13">
@@ -1087,7 +1087,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateEvent -->
-        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-17T19:11:16 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-17T19:11:28 SGT" duration-ms="12007" status="PASS">
+        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-20T18:36:24 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-20T18:36:35 SGT" duration-ms="11063" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1116,22 +1116,22 @@
             </param>
             <param index="5">
               <value>
-                <![CDATA[01/15/2020 08:00]]>
+                <![CDATA[02/12/2020 07:00]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[01/20/2020 17:00]]>
+                <![CDATA[02/13/2020 17:00]]>
               </value>
             </param>
             <param index="7">
               <value>
-                <![CDATA[01/10/2019 07:00]]>
+                <![CDATA[01/25/2020 07:09]]>
               </value>
             </param>
             <param index="8">
               <value>
-                <![CDATA[01/14/2020 23:59]]>
+                <![CDATA[01/30/2020 23:59]]>
               </value>
             </param>
             <param index="9">
@@ -1146,12 +1146,12 @@
             </param>
             <param index="11">
               <value>
-                <![CDATA[01/21/2020 10:00 ]]>
+                <![CDATA[02/14/2020 10:00 ]]>
               </value>
             </param>
             <param index="12">
               <value>
-                <![CDATA[01/21/2020 10:00 ]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="13">
@@ -1193,7 +1193,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateEvent -->
-        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-17T19:11:28 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-17T19:11:40 SGT" duration-ms="11799" status="PASS">
+        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-20T18:36:35 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-20T18:36:46 SGT" duration-ms="11396" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1222,22 +1222,22 @@
             </param>
             <param index="5">
               <value>
-                <![CDATA[01/15/2020 08:00]]>
+                <![CDATA[02/12/2020 07:00]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[01/20/2020 17:00]]>
+                <![CDATA[02/13/2020 17:00]]>
               </value>
             </param>
             <param index="7">
               <value>
-                <![CDATA[01/10/2019 07:00]]>
+                <![CDATA[01/25/2020 07:10]]>
               </value>
             </param>
             <param index="8">
               <value>
-                <![CDATA[01/14/2020 23:59]]>
+                <![CDATA[01/30/2020 23:59]]>
               </value>
             </param>
             <param index="9">
@@ -1252,12 +1252,12 @@
             </param>
             <param index="11">
               <value>
-                <![CDATA[01/21/2020 10:00 ]]>
+                <![CDATA[02/14/2020 10:00 ]]>
               </value>
             </param>
             <param index="12">
               <value>
-                <![CDATA[01/21/2020 10:00 ]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="13">
@@ -1299,7 +1299,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateEvent -->
-        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-17T19:11:40 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-17T19:12:03 SGT" duration-ms="22403" status="PASS">
+        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-20T18:36:46 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-20T18:36:58 SGT" duration-ms="11368" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1328,22 +1328,22 @@
             </param>
             <param index="5">
               <value>
-                <![CDATA[01/15/2020 08:00]]>
+                <![CDATA[02/12/2020 07:00]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[01/20/2020 17:00]]>
+                <![CDATA[02/13/2020 17:00]]>
               </value>
             </param>
             <param index="7">
               <value>
-                <![CDATA[01/10/2019 07:00]]>
+                <![CDATA[01/25/2020 07:11]]>
               </value>
             </param>
             <param index="8">
               <value>
-                <![CDATA[01/14/2020 23:59]]>
+                <![CDATA[01/30/2020 23:59]]>
               </value>
             </param>
             <param index="9">
@@ -1358,12 +1358,12 @@
             </param>
             <param index="11">
               <value>
-                <![CDATA[01/21/2020 10:00 ]]>
+                <![CDATA[02/14/2020 10:00 ]]>
               </value>
             </param>
             <param index="12">
               <value>
-                <![CDATA[01/21/2020 10:00 ]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="13">
@@ -1405,7 +1405,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateEvent -->
-        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-17T19:12:03 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-17T19:12:34 SGT" duration-ms="31421" status="PASS">
+        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-20T18:36:58 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-20T18:37:09 SGT" duration-ms="11614" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1434,22 +1434,22 @@
             </param>
             <param index="5">
               <value>
-                <![CDATA[01/15/2020 08:00]]>
+                <![CDATA[02/12/2020 07:00]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[01/20/2020 17:00]]>
+                <![CDATA[02/13/2020 17:00]]>
               </value>
             </param>
             <param index="7">
               <value>
-                <![CDATA[01/10/2019 07:00]]>
+                <![CDATA[01/25/2020 07:12]]>
               </value>
             </param>
             <param index="8">
               <value>
-                <![CDATA[01/14/2020 23:59]]>
+                <![CDATA[01/30/2020 23:59]]>
               </value>
             </param>
             <param index="9">
@@ -1464,12 +1464,12 @@
             </param>
             <param index="11">
               <value>
-                <![CDATA[01/21/2020 10:00 ]]>
+                <![CDATA[02/14/2020 10:00 ]]>
               </value>
             </param>
             <param index="12">
               <value>
-                <![CDATA[01/21/2020 10:00 ]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="13">
@@ -1511,7 +1511,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateEvent -->
-        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-17T19:12:34 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-17T19:13:08 SGT" duration-ms="34195" status="PASS">
+        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-20T18:37:09 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-20T18:37:21 SGT" duration-ms="11467" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1540,22 +1540,22 @@
             </param>
             <param index="5">
               <value>
-                <![CDATA[01/15/2020 08:00]]>
+                <![CDATA[02/12/2020 07:00]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[01/20/2020 17:00]]>
+                <![CDATA[02/13/2020 17:00]]>
               </value>
             </param>
             <param index="7">
               <value>
-                <![CDATA[01/10/2019 07:00]]>
+                <![CDATA[01/25/2020 07:13]]>
               </value>
             </param>
             <param index="8">
               <value>
-                <![CDATA[01/14/2020 23:59]]>
+                <![CDATA[01/30/2020 23:59]]>
               </value>
             </param>
             <param index="9">
@@ -1575,7 +1575,7 @@
             </param>
             <param index="12">
               <value>
-                <![CDATA[01/21/2020 10:00 ]]>
+                <![CDATA[02/14/2020 10:00 ]]>
               </value>
             </param>
             <param index="13">
@@ -1617,7 +1617,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateEvent -->
-        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-17T19:13:08 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-17T19:13:40 SGT" duration-ms="32133" status="PASS">
+        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-20T18:37:21 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-20T18:37:32 SGT" duration-ms="11159" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1646,22 +1646,22 @@
             </param>
             <param index="5">
               <value>
-                <![CDATA[01/15/2020 08:00]]>
+                <![CDATA[02/12/2020 07:00]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[01/20/2020 17:00]]>
+                <![CDATA[02/13/2020 17:00]]>
               </value>
             </param>
             <param index="7">
               <value>
-                <![CDATA[01/10/2019 07:00]]>
+                <![CDATA[01/25/2020 07:14]]>
               </value>
             </param>
             <param index="8">
               <value>
-                <![CDATA[01/14/2020 23:59]]>
+                <![CDATA[01/30/2020 23:59]]>
               </value>
             </param>
             <param index="9">
@@ -1676,12 +1676,12 @@
             </param>
             <param index="11">
               <value>
-                <![CDATA[01/21/2020 10:00 ]]>
+                <![CDATA[02/14/2020 10:00 ]]>
               </value>
             </param>
             <param index="12">
               <value>
-                <![CDATA[01/21/2020 10:00 ]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="13">
@@ -1723,7 +1723,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateEvent -->
-        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-17T19:13:40 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-17T19:14:12 SGT" duration-ms="31742" status="PASS">
+        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-20T18:37:32 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-20T18:37:43 SGT" duration-ms="11264" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1752,22 +1752,22 @@
             </param>
             <param index="5">
               <value>
-                <![CDATA[01/15/2020 08:00]]>
+                <![CDATA[02/12/2020 07:00]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[01/20/2020 17:00]]>
+                <![CDATA[02/13/2020 17:00]]>
               </value>
             </param>
             <param index="7">
               <value>
-                <![CDATA[01/10/2019 07:00]]>
+                <![CDATA[01/25/2020 07:15]]>
               </value>
             </param>
             <param index="8">
               <value>
-                <![CDATA[01/14/2020 23:59]]>
+                <![CDATA[01/30/2020 23:59]]>
               </value>
             </param>
             <param index="9">
@@ -1782,12 +1782,12 @@
             </param>
             <param index="11">
               <value>
-                <![CDATA[01/21/2020 10:00 ]]>
+                <![CDATA[02/14/2020 10:00 ]]>
               </value>
             </param>
             <param index="12">
               <value>
-                <![CDATA[01/21/2020 10:00 ]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="13">
@@ -1829,7 +1829,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateEvent -->
-        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-17T19:14:12 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-17T19:14:25 SGT" duration-ms="12556" status="PASS">
+        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-20T18:37:43 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-20T18:37:55 SGT" duration-ms="11699" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1858,22 +1858,22 @@
             </param>
             <param index="5">
               <value>
-                <![CDATA[01/15/2020 08:00]]>
+                <![CDATA[02/12/2020 07:00]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[01/20/2020 17:00]]>
+                <![CDATA[02/13/2020 17:00]]>
               </value>
             </param>
             <param index="7">
               <value>
-                <![CDATA[01/10/2019 07:00]]>
+                <![CDATA[01/25/2020 07:16]]>
               </value>
             </param>
             <param index="8">
               <value>
-                <![CDATA[01/14/2020 23:59]]>
+                <![CDATA[01/30/2020 23:59]]>
               </value>
             </param>
             <param index="9">
@@ -1893,7 +1893,7 @@
             </param>
             <param index="12">
               <value>
-                <![CDATA[01/21/2020 10:00 ]]>
+                <![CDATA[02/14/2020 10:00 ]]>
               </value>
             </param>
             <param index="13">
@@ -1935,7 +1935,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateEvent -->
-        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-17T19:14:25 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-17T19:14:38 SGT" duration-ms="13550" status="PASS">
+        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-20T18:37:55 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-20T18:38:06 SGT" duration-ms="10901" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1964,22 +1964,22 @@
             </param>
             <param index="5">
               <value>
-                <![CDATA[01/15/2020 08:00]]>
+                <![CDATA[02/12/2020 07:00]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[01/20/2020 17:00]]>
+                <![CDATA[02/13/2020 17:00]]>
               </value>
             </param>
             <param index="7">
               <value>
-                <![CDATA[01/10/2019 07:00]]>
+                <![CDATA[01/25/2020 07:17]]>
               </value>
             </param>
             <param index="8">
               <value>
-                <![CDATA[01/14/2020 23:59]]>
+                <![CDATA[01/30/2020 23:59]]>
               </value>
             </param>
             <param index="9">
@@ -1994,12 +1994,12 @@
             </param>
             <param index="11">
               <value>
-                <![CDATA[01/21/2020 10:00 ]]>
+                <![CDATA[02/14/2020 10:00 ]]>
               </value>
             </param>
             <param index="12">
               <value>
-                <![CDATA[01/21/2020 10:00 ]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="13">
@@ -2041,7 +2041,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateEvent -->
-        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-17T19:14:38 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-17T19:15:05 SGT" duration-ms="26764" status="PASS">
+        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-20T18:38:06 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-20T18:38:17 SGT" duration-ms="11627" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2070,22 +2070,22 @@
             </param>
             <param index="5">
               <value>
-                <![CDATA[01/15/2020 08:00]]>
+                <![CDATA[02/12/2020 07:00]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[01/20/2020 17:00]]>
+                <![CDATA[02/13/2020 17:00]]>
               </value>
             </param>
             <param index="7">
               <value>
-                <![CDATA[01/10/2019 07:00]]>
+                <![CDATA[01/25/2020 07:18]]>
               </value>
             </param>
             <param index="8">
               <value>
-                <![CDATA[01/14/2020 23:59]]>
+                <![CDATA[01/30/2020 23:59]]>
               </value>
             </param>
             <param index="9">
@@ -2100,12 +2100,12 @@
             </param>
             <param index="11">
               <value>
-                <![CDATA[01/21/2020 10:00 ]]>
+                <![CDATA[02/14/2020 10:00 ]]>
               </value>
             </param>
             <param index="12">
               <value>
-                <![CDATA[01/21/2020 10:00 ]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="13">
@@ -2147,7 +2147,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateEvent -->
-        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-17T19:15:05 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-17T19:15:56 SGT" duration-ms="50514" status="PASS">
+        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-20T18:38:17 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-20T18:38:30 SGT" duration-ms="12354" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2176,22 +2176,22 @@
             </param>
             <param index="5">
               <value>
-                <![CDATA[01/15/2020 08:00]]>
+                <![CDATA[02/12/2020 07:00]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[01/20/2020 17:00]]>
+                <![CDATA[02/13/2020 17:00]]>
               </value>
             </param>
             <param index="7">
               <value>
-                <![CDATA[01/10/2019 07:00]]>
+                <![CDATA[01/25/2020 07:19]]>
               </value>
             </param>
             <param index="8">
               <value>
-                <![CDATA[01/14/2020 23:59]]>
+                <![CDATA[01/30/2020 23:59]]>
               </value>
             </param>
             <param index="9">
@@ -2211,7 +2211,7 @@
             </param>
             <param index="12">
               <value>
-                <![CDATA[01/21/2020 10:00 ]]>
+                <![CDATA[02/14/2020 10:00 ]]>
               </value>
             </param>
             <param index="13">
@@ -2253,7 +2253,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateEvent -->
-        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-17T19:15:56 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-17T19:16:32 SGT" duration-ms="36654" status="PASS">
+        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-20T18:38:30 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-20T18:38:43 SGT" duration-ms="12817" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2282,22 +2282,22 @@
             </param>
             <param index="5">
               <value>
-                <![CDATA[01/15/2020 08:00]]>
+                <![CDATA[02/12/2020 07:00]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[01/20/2020 17:00]]>
+                <![CDATA[02/13/2020 17:00]]>
               </value>
             </param>
             <param index="7">
               <value>
-                <![CDATA[01/10/2019 07:00]]>
+                <![CDATA[01/25/2020 07:20]]>
               </value>
             </param>
             <param index="8">
               <value>
-                <![CDATA[01/14/2020 23:59]]>
+                <![CDATA[01/30/2020 23:59]]>
               </value>
             </param>
             <param index="9">
@@ -2317,7 +2317,7 @@
             </param>
             <param index="12">
               <value>
-                <![CDATA[01/21/2020 10:00 ]]>
+                <![CDATA[02/14/2020 10:00 ]]>
               </value>
             </param>
             <param index="13">
@@ -2359,7 +2359,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateEvent -->
-        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-17T19:16:32 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-17T19:17:07 SGT" duration-ms="35196" status="PASS">
+        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-20T18:38:43 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-20T18:38:55 SGT" duration-ms="11997" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2388,22 +2388,22 @@
             </param>
             <param index="5">
               <value>
-                <![CDATA[01/15/2020 08:00]]>
+                <![CDATA[02/12/2020 07:00]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[01/20/2020 17:00]]>
+                <![CDATA[02/13/2020 17:00]]>
               </value>
             </param>
             <param index="7">
               <value>
-                <![CDATA[01/10/2019 07:00]]>
+                <![CDATA[01/25/2020 07:21]]>
               </value>
             </param>
             <param index="8">
               <value>
-                <![CDATA[01/14/2020 23:59]]>
+                <![CDATA[01/30/2020 23:59]]>
               </value>
             </param>
             <param index="9">
@@ -2423,7 +2423,7 @@
             </param>
             <param index="12">
               <value>
-                <![CDATA[01/21/2020 10:00 ]]>
+                <![CDATA[02/14/2020 10:00 ]]>
               </value>
             </param>
             <param index="13">
@@ -2465,7 +2465,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateEvent -->
-        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-17T19:17:07 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-17T19:17:40 SGT" duration-ms="32315" status="PASS">
+        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-20T18:38:55 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-20T18:39:05 SGT" duration-ms="10459" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2494,22 +2494,22 @@
             </param>
             <param index="5">
               <value>
-                <![CDATA[01/15/2020 08:00]]>
+                <![CDATA[02/12/2020 07:00]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[01/20/2020 17:00]]>
+                <![CDATA[02/13/2020 17:00]]>
               </value>
             </param>
             <param index="7">
               <value>
-                <![CDATA[01/10/2019 07:00]]>
+                <![CDATA[01/25/2020 07:22]]>
               </value>
             </param>
             <param index="8">
               <value>
-                <![CDATA[01/14/2020 23:59]]>
+                <![CDATA[01/30/2020 23:59]]>
               </value>
             </param>
             <param index="9">
@@ -2524,12 +2524,12 @@
             </param>
             <param index="11">
               <value>
-                <![CDATA[01/21/2020 10:00 ]]>
+                <![CDATA[02/14/2020 10:00 ]]>
               </value>
             </param>
             <param index="12">
               <value>
-                <![CDATA[01/21/2020 10:00 ]]>
+                <![CDATA[02/14/2020 10:00 ]]>
               </value>
             </param>
             <param index="13">
@@ -2571,7 +2571,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateEvent -->
-        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-17T19:17:40 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-17T19:18:13 SGT" duration-ms="33615" status="PASS">
+        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-20T18:39:05 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-20T18:39:16 SGT" duration-ms="11383" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2600,22 +2600,22 @@
             </param>
             <param index="5">
               <value>
-                <![CDATA[01/15/2020 08:00]]>
+                <![CDATA[02/12/2020 07:00]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[01/20/2020 17:00]]>
+                <![CDATA[02/13/2020 17:00]]>
               </value>
             </param>
             <param index="7">
               <value>
-                <![CDATA[01/10/2019 07:00]]>
+                <![CDATA[01/25/2020 07:23]]>
               </value>
             </param>
             <param index="8">
               <value>
-                <![CDATA[01/14/2020 23:59]]>
+                <![CDATA[01/30/2020 23:59]]>
               </value>
             </param>
             <param index="9">
@@ -2630,12 +2630,12 @@
             </param>
             <param index="11">
               <value>
-                <![CDATA[01/21/2020 10:00 ]]>
+                <![CDATA[02/14/2020 10:00 ]]>
               </value>
             </param>
             <param index="12">
               <value>
-                <![CDATA[01/21/2020 10:00 ]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="13">
@@ -2677,7 +2677,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateEvent -->
-        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-17T19:18:13 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-17T19:18:47 SGT" duration-ms="33588" status="PASS">
+        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-20T18:39:16 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-20T18:39:28 SGT" duration-ms="12101" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2706,22 +2706,22 @@
             </param>
             <param index="5">
               <value>
-                <![CDATA[01/15/2020 08:00]]>
+                <![CDATA[02/12/2020 07:00]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[01/20/2020 17:00]]>
+                <![CDATA[02/13/2020 17:00]]>
               </value>
             </param>
             <param index="7">
               <value>
-                <![CDATA[01/10/2019 07:00]]>
+                <![CDATA[01/25/2020 07:24]]>
               </value>
             </param>
             <param index="8">
               <value>
-                <![CDATA[01/14/2020 23:59]]>
+                <![CDATA[01/30/2020 23:59]]>
               </value>
             </param>
             <param index="9">
@@ -2736,12 +2736,12 @@
             </param>
             <param index="11">
               <value>
-                <![CDATA[01/21/2020 10:00 ]]>
+                <![CDATA[02/14/2020 10:00 ]]>
               </value>
             </param>
             <param index="12">
               <value>
-                <![CDATA[01/21/2020 10:00 ]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="13">
@@ -2783,7 +2783,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateEvent -->
-        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-17T19:18:47 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-17T19:19:03 SGT" duration-ms="16150" status="PASS">
+        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-20T18:39:28 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-20T18:39:40 SGT" duration-ms="11761" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2812,22 +2812,22 @@
             </param>
             <param index="5">
               <value>
-                <![CDATA[01/15/2020 08:00]]>
+                <![CDATA[02/12/2020 07:00]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[01/20/2020 17:00]]>
+                <![CDATA[02/13/2020 17:00]]>
               </value>
             </param>
             <param index="7">
               <value>
-                <![CDATA[01/10/2019 07:00]]>
+                <![CDATA[01/25/2020 07:25]]>
               </value>
             </param>
             <param index="8">
               <value>
-                <![CDATA[01/14/2020 23:59]]>
+                <![CDATA[01/30/2020 23:59]]>
               </value>
             </param>
             <param index="9">
@@ -2847,7 +2847,7 @@
             </param>
             <param index="12">
               <value>
-                <![CDATA[01/21/2020 10:00 ]]>
+                <![CDATA[02/14/2020 10:00 ]]>
               </value>
             </param>
             <param index="13">
@@ -2889,7 +2889,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateEvent -->
-        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-17T19:19:03 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-17T19:19:26 SGT" duration-ms="23206" status="PASS">
+        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-20T18:39:40 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-20T18:39:52 SGT" duration-ms="11618" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2918,22 +2918,22 @@
             </param>
             <param index="5">
               <value>
-                <![CDATA[01/15/2020 08:00]]>
+                <![CDATA[02/12/2020 07:00]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[01/20/2020 17:00]]>
+                <![CDATA[02/13/2020 17:00]]>
               </value>
             </param>
             <param index="7">
               <value>
-                <![CDATA[01/10/2019 07:00]]>
+                <![CDATA[01/25/2020 07:26]]>
               </value>
             </param>
             <param index="8">
               <value>
-                <![CDATA[01/14/2020 23:59]]>
+                <![CDATA[01/30/2020 23:59]]>
               </value>
             </param>
             <param index="9">
@@ -2953,7 +2953,7 @@
             </param>
             <param index="12">
               <value>
-                <![CDATA[01/21/2020 10:00 ]]>
+                <![CDATA[02/14/2020 10:00 ]]>
               </value>
             </param>
             <param index="13">
@@ -2995,7 +2995,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateEvent -->
-        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-17T19:19:26 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-17T19:20:02 SGT" duration-ms="35324" status="PASS">
+        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-20T18:39:52 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-20T18:40:04 SGT" duration-ms="12399" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -3024,22 +3024,22 @@
             </param>
             <param index="5">
               <value>
-                <![CDATA[01/15/2020 08:00]]>
+                <![CDATA[02/12/2020 07:00]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[01/20/2020 17:00]]>
+                <![CDATA[02/13/2020 17:00]]>
               </value>
             </param>
             <param index="7">
               <value>
-                <![CDATA[01/10/2019 07:00]]>
+                <![CDATA[01/25/2020 07:27]]>
               </value>
             </param>
             <param index="8">
               <value>
-                <![CDATA[01/14/2020 23:59]]>
+                <![CDATA[01/30/2020 23:59]]>
               </value>
             </param>
             <param index="9">
@@ -3059,7 +3059,7 @@
             </param>
             <param index="12">
               <value>
-                <![CDATA[01/21/2020 10:00 ]]>
+                <![CDATA[02/14/2020 10:00 ]]>
               </value>
             </param>
             <param index="13">
@@ -3101,7 +3101,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateEvent -->
-        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-17T19:20:02 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-17T19:20:35 SGT" duration-ms="33764" status="PASS">
+        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-20T18:40:04 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-20T18:40:16 SGT" duration-ms="11632" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -3130,22 +3130,22 @@
             </param>
             <param index="5">
               <value>
-                <![CDATA[01/15/2020 08:00]]>
+                <![CDATA[02/12/2020 07:00]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[01/20/2020 17:00]]>
+                <![CDATA[02/13/2020 17:00]]>
               </value>
             </param>
             <param index="7">
               <value>
-                <![CDATA[01/10/2019 07:00]]>
+                <![CDATA[01/25/2020 07:28]]>
               </value>
             </param>
             <param index="8">
               <value>
-                <![CDATA[01/14/2020 23:59]]>
+                <![CDATA[01/30/2020 23:59]]>
               </value>
             </param>
             <param index="9">
@@ -3160,12 +3160,12 @@
             </param>
             <param index="11">
               <value>
-                <![CDATA[01/21/2020 10:00 ]]>
+                <![CDATA[02/14/2020 10:00 ]]>
               </value>
             </param>
             <param index="12">
               <value>
-                <![CDATA[01/21/2020 10:00 ]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="13">
@@ -3207,7 +3207,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateEvent -->
-        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-17T19:20:35 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-17T19:21:09 SGT" duration-ms="33420" status="PASS">
+        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-20T18:40:16 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-20T18:40:28 SGT" duration-ms="12000" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -3236,22 +3236,22 @@
             </param>
             <param index="5">
               <value>
-                <![CDATA[01/15/2020 08:00]]>
+                <![CDATA[02/12/2020 07:00]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[01/20/2020 17:00]]>
+                <![CDATA[02/13/2020 17:00]]>
               </value>
             </param>
             <param index="7">
               <value>
-                <![CDATA[01/10/2019 07:00]]>
+                <![CDATA[01/25/2020 07:29]]>
               </value>
             </param>
             <param index="8">
               <value>
-                <![CDATA[01/14/2020 23:59]]>
+                <![CDATA[01/30/2020 23:59]]>
               </value>
             </param>
             <param index="9">
@@ -3266,12 +3266,12 @@
             </param>
             <param index="11">
               <value>
-                <![CDATA[01/21/2020 10:00 ]]>
+                <![CDATA[02/14/2020 10:00 ]]>
               </value>
             </param>
             <param index="12">
               <value>
-                <![CDATA[01/21/2020 10:00 ]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="13">
@@ -3313,7 +3313,113 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateEvent -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-17T19:21:09 SGT" name="tearDown" finished-at="2020-01-17T19:21:10 SGT" duration-ms="1002" status="PASS">
+        <test-method signature="CreateEvent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-20T18:40:28 SGT" name="CreateEvent" data-provider="CreateEventTestData" finished-at="2020-01-20T18:40:40 SGT" duration-ms="12281" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Public]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PEMC Grand Event]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Boni Mandaluyong near MRT Boni Station]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox nymphs grab quick-jived waltz. Brick quiz whangs jumpy veldt fox. Bright vixens jump; dozy fowl quack. Quick wafting zephyrs vex bold Jim. Quick zephyrs blow, vexing daft Jim. Sex-charged fop blew my junk TV quiz. How quickly daft jumping zebras vex. Two driven jocks help fax my big quiz. Quick, Baz, get my woven flax jodhpurs! "Now fax quiz Jack!" my brave ghost pled. Five quacking zephyrs jolt my wax bed. Flummoxed by job, kvetching W. zaps Iraq. Cozy sphinx waves quart jug of bad milk. A very bad quack might jinx zippy fowls. Few quips galvanized the mock jury box. Quick brown dogs jump over the lazy fox. The jay, pig, fox, zebra, and my wolves quack! Blowzy red vixens fight og. Watch "Jeo]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Sample Event Form]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[02/12/2020 07:00]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[02/13/2020 17:00]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[01/25/2020 07:27]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[01/30/2020 23:59]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[C:\\Users\\OJT - Project Sec1\\eclipse-workspace\\SeleniumFrameworkFujiSankeiWebsite\\Sample Test Files\\Portable Document File Sample.pdf]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Custom]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[02/14/2020 10:00 ]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[02/21/2020 10:00 ]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[C:\\Users\\OJT - Project Sec1\\eclipse-workspace\\SeleniumFrameworkFujiSankeiWebsite\\Sample Test Files\\1.jpg]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[PEMC Event Survey Form]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Required]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[Please fill all required(*) fields.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateEvent -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:WOG.CMS_EventsAndTrainingsTest@54c62d71]" started-at="2020-01-20T18:40:40 SGT" name="tearDown" finished-at="2020-01-20T18:40:41 SGT" duration-ms="602" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

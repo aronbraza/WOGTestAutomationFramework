@@ -9,6 +9,7 @@ import java.util.List;
 
 import org.openqa.selenium.ElementNotInteractableException;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -327,6 +328,7 @@ public class CMS_EventsPage extends base  {
 		{
 			driver.switchTo().frame(Event_Description_Iframe);
 			//EventDescription_Body.clear();
+			EventDescription_Body.sendKeys(Keys.chord(Keys.CONTROL, "a"));
 			EventDescription_Body.sendKeys(Event_Description);
 			driver.switchTo().defaultContent();
 		}
@@ -456,8 +458,8 @@ public class CMS_EventsPage extends base  {
 		public void clickAllow_Invitation()
 		{
 			
-			//Allow_Invitation_Checkbox.click();
-			executor.executeScript("arguments[0].click();", Allow_Invitation_Checkbox);
+			Allow_Invitation_Checkbox.click();
+			//executor.executeScript("arguments[0].click();", Allow_Invitation_Checkbox);
 		}
 		
 		WebDriverWait wait = new WebDriverWait(driver, 30);
@@ -479,8 +481,8 @@ public class CMS_EventsPage extends base  {
 		
 		public void clickAdd_Event_Button()
 		{
-			//Add_Event_Button.click();
-			executor.executeScript("arguments[0].click();", Add_Event_Button);
+			Add_Event_Button.click();
+			//executor.executeScript("arguments[0].click();", Add_Event_Button);
 		}
 		
 		

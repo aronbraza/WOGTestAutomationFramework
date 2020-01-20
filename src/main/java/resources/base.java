@@ -34,10 +34,10 @@ public class base {
 				System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\driver\\chromedriver.exe");
 				ChromeOptions options = new ChromeOptions();
 				//Run test in headless mode.
-				if(browserName.contains("Headless")) 
-				{
+				//if(browserName.contains("Headless")) 
+				//{
 					options.addArguments("headless");
-				}
+				//}
 				driver = new ChromeDriver(options);
 				
 				

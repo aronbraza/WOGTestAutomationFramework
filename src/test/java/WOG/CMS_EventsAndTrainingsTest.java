@@ -95,6 +95,7 @@ public class CMS_EventsAndTrainingsTest extends base {
 		cmsEvents_Page.uploadPresentation_Materials(FilePath);
 		cmsEvents_Page.clickPresentation_Materials_Radiobutton(Availability);
 		cmsEvents_Page.setDate_On_Presentation_Materials(Lifetime_Start_Date, Custom_Start_Date, Custom_End_Date);
+		//cmsEvents_Page.uploadFeatured_Image(ImagePath);
 		cmsEvents_Page.setPEMC_Transactional_Survey(Survey);
 		cmsEvents_Page.setSurvey_Required_Dropdown(SurveyReq);
 		cmsEvents_Page.clickAllow_Invitation();

@@ -50,7 +50,8 @@ public class CMS_EventsAndTrainingsPage extends base {
 	
 	public void clickCreate_Event()
 	{
-		executor.executeScript("arguments[0].click();",Create_Event);
+		Create_Event.click();
+		//executor.executeScript("arguments[0].click();",Create_Event);
 	}
 	
 	
